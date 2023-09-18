@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: #070307;
+
+}
+
+.nav-link{
+  color: #f6f5f5;
+}
+
+
+/* color del body */
+body {
+  background-color: #f6f5f5;
+}
+
+footer {
+  background-color: #070307;
+  text-align: center;
+  padding: 10px;
+}
+
+/* color del footer */
+footer {
+  color: azure;
+  background-color: rgba(14, 20, 38, 1);
+  /* padding: 20px 0; */
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.social-links {
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/* iconos del footer  */
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  list-style: none;
+}
+
+/* grid-Inicio */
+
+#inicio-grilla {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main section"
+    "main aside"
+    "footer footer"
+  ;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0fr 1fr 2fr 1fr;
+  column-gap: 3px;
+  height: 100vh;
+}
+
+header {
+  grid-area: header;
+}
+
+section {
+  grid-area: section;
+  display: block;
+  justify-content: center;
+  align-self: center;
+}
+
+footer {
+  grid-area: footer;
+}
+
+main {
+  grid-area: main;
+  align-self: center;
+}
+
+.img{
+  justify-content: flex-start;
+  grid-area: aside;
+  width: 100%;
+  height: auto;
+  
+}
+
+aside {
+  grid-area: aside;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav {
+  grid-area: nav;
+}
+
+
+/* Grid-Sobre Mi */
+ #-sobre {
+  display: grid;
+  grid-template-areas:
+
+    "section  aside"
+    "section  aside"
+    "footer footer"
+  ;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 5px;
+  height: 100vh;
+}
+
+footer {
+  grid-area: footer;
+  position:relative;
+  bottom: 0;
+}
+
+section {
+  grid-area: section;
+  font-family: "Poppins", sans-serif;
+  justify-self: start;
+}
+
+section img {
+  grid-area: img;
+  max-height: 600px;
+  max-width: 900px;
+  align-self: start;
+}
+
+nav {
+  grid-area: nav;
+}
+
+/* Grid-servicios */
+
+#servicios {
+  display: grid;
+  grid-template-areas: 
+  
+ "contenedor1 contenedor2 contenedor3"
+  "footer footer footer"
+  ;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+}
+footer {
+  grid-area: footer;
+  position:relative;
+  bottom: 0;
+}
+
+.aside{
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+
+
+/* Estilos para cambiar color en hover */
+td:hover {
+  background-color: rgba(0, 18, 223, 1);
+}
+
+.card {
+  margin: 60px 10px;
+  padding: 0 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+.card img {
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #ffb800;
+}
+
+.btn:hover {
+  background-color: #ffb800;
+}
+.formsection {
+  background-color: yellow;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+ .form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: default;
+  align-items: default;
+  padding: 20px;
+  font-size: 1rem;
+}
+a:hover {
+  color: purple;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: transform 0.1s ease-in-out;
+  /* Agrega una transición suave */
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 3, 5rem;
+  margin-bottom: 0;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+
+
+/* Movil */
+
+@media screen and (max-width:768px) and (min-width:320px){
+  #inicio-grilla {
+    display: grid;
+    grid-template-areas:
+       "header"
+      "section"
+      "main"
+      "aside"
+      "footer"
+      ;
+
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    height: 100vh;
+   
+  }
+
+.cta-button{
+  display: inline-block;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+}
+  
+/* Tablet */
+@media screen and (max-width:1024px) and (min-width:600px) {
+
+  #inicio-grilla {
+    display: grid;
+    grid-template-areas:
+       "header header"    
+      "main section"
+      "main aside"
+      "footer footer"
+      ;
+
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 0fr 2fr 2fr 1fr;
+    
+    
+  }
+
+}
+
+   
+  
