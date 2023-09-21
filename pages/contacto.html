@@ -37,26 +37,36 @@
 
   <body>
 
-    <section class="formsection">
-      <div class="mb-3">
-        <form class="form" action="archivo.php" method="post" enctype="text/plain">
-          <label for="nombre">Nombre:</label>  
-          <input type="text" id="nombre" placeholder="Ingrese su nombre">
-    
-          <label for="apellido">Apellido:</label>  
-          <input type="text" id="apellido" placeholder="Ingrese su apellido">
-    
-          <label for="email">Mail:    </label>
-          <input type="email" name="" id="email" placeholder="Ingresar su mail">
-    
-          <label for="celular">Celular:</label>
-          <input type="text" name="" id="celular" placeholder="Ingrese su celular">
-          <label for="texto">Mensaje:</label>
-          <textarea name="" id="texto" placeholder="Ingrese su mensaje"></textarea>
-    
-          <input formaction="../index.html" type="submit" value="Enviar Datos" class="botonEnviar">
-      </div>   
-    </section>
+
+<section class="section-form">
+  <div class="container mt-4">
+    <form>
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control col-xl-12" id="nombre" placeholder="Ingresa tu nombre">
+        </div>
+        <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" class="form-control col-xl-12" id="apellido" placeholder="Ingresa tu apellido">
+        </div>
+        <div class="form-group">
+            <label for="edad">Edad:</label>
+            <input type="number" class="form-control col-xl-12" id="edad" placeholder="Ingresa tu edad">
+        </div>
+        <div class="form-group">
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" class="form-control col-xl-12" id="correo" placeholder="Ingresa tu correo electrónico">
+        </div>
+        <div class="form-group">
+            <label for="opinion">Opinión:</label>
+            <textarea class="form-control col-xl-12" id="opinion" rows="4" placeholder="Escribe tu opinión aquí"></textarea>
+        </div>
+        <div class="d-grid gap-2"> 
+          <button class="btn btn-primary" type="button">Enviar</button>
+        </div>
+  </form>
+</div>
+</section>
     
 
     <footer>
