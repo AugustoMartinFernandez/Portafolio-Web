@@ -12,6 +12,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.body-contacto {
+  max-height: 100vh;
+}
+
 footer {
   text-align: center;
   padding: 10px;
@@ -21,7 +25,6 @@ footer {
 footer {
   color: azure;
   background-color: #0b110d;
-  /* padding: 20px 0; */
   text-align: center;
 }
 
@@ -32,6 +35,10 @@ footer {
 
 .social-links {
   margin-top: 10px;
+  text-decoration: none;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -91,16 +98,19 @@ footer {
 
 
 /* formulario */
-.section-form {
-
-}
 
 form {
-  background-color: yellow;
+  background-color: black;
+  color: #E8E8E8;
   height: 470px;
   width: 300px;
   padding: 20px;
   border-radius: 17px;
+  margin: 30px;
+}
+
+.d-grid {
+  padding-top: 15px;
 }
 
 /* estilos-servicios */
@@ -224,59 +234,8 @@ td:hover {
 }
 
 .btn:hover {
-  background-color: white;
+  background-color: blue;
 }
-
-
-.formsection {
-  background-color: yellow;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: default;
-  align-items: default;
-  padding: 20px;
-  font-size: 1rem;
-}
-
-a:hover {
-  color: purple;
-}
-
-.cta-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: transform 0.1s ease-in-out;
-}
-
-.cta-button:hover {
-  background-color: #0056b3;
-  transform: scale(1.05);
-}
-
-.texto {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  font-size: 3, 5rem;
-  margin-bottom: 0;
-  margin-top: 20px;
-  width: 100%;
-  font-size: 1rem;
-  text-align: center;
-}
-
 
 
 /* Movil */
