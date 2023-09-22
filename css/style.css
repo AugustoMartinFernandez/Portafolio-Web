@@ -12,9 +12,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.body-contacto {
-  max-height: 100vh;
-}
 
 footer {
   text-align: center;
@@ -73,18 +70,13 @@ a {
   color: #E8E8E8;
 }
 
-.section-proyec {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+
 
 .card {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   background-color: #0b110d;
   color: #E8E8E8;
-  transition: height -5s;
 }
 
 .card-img-top {
@@ -96,32 +88,35 @@ a {
   border: 2px solid #777;
 }
 
-
 /* formulario */
+.containerform {
+  display: flex;
+  justify-content: center;
+}
 
 form {
   background-color: black;
   color: #E8E8E8;
-  height: 470px;
-  width: 300px;
+  height: 520px;
+  width: 500px;
   padding: 20px;
   border-radius: 17px;
   margin: 30px;
 }
 
 .d-grid {
-  padding-top: 15px;
+  padding-top: 35px;
 }
 
 /* estilos-servicios */
-.container {
+.main-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  flex-direction: row;
+  margin: 5px;
 }
+
 
 
 /* grid-Inicio */
@@ -219,15 +214,11 @@ nav {
   grid-area: nav;
 }
 
-/* Grid-servicios */
-
-
 
 /* Estilos para cambiar color en hover */
 td:hover {
   background-color: rgba(0, 18, 223, 1);
 }
-
 
 .btn {
   background-color: #008582;
@@ -266,6 +257,3 @@ td:hover {
   }
 
 }
-
-
-
