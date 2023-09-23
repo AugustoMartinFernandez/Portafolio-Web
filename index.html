@@ -5,6 +5,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -17,66 +21,78 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container-fluid">
-        <a class="navbar-brand">
-          <img src="./images/logodw.png" alt="Bootstrap" width="90" height="80">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
-            <div class="navbar-nav">
-              <a class="nav-link" href="./index.html">Inicio</a>
-              <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
-              <a class="nav-link" href="./pages/sobremi.html">Sobre MI</a>
-              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-              <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+  <div id="inicio">
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img src="./images/logodw.png" alt="Bootstrap" width="90" height="80">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <div class="navbar-nav">
+                <a class="nav-link" href="./index.html">Inicio</a>
+                <a class="nav-link" href="./pages/proyectos.html">Proyectos</a>
+                <a class="nav-link" href="./pages/sobremi.html">Sobre MI</a>
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+              </div>
             </div>
           </div>
         </div>
+      </nav>
+    </header>
+    
+      <div class="titulo-inicio">
+        <h1 class="h1">Desarrollador Web</h1>
+        <h2 class="h2">Hola, Soy Martin Fernandez</h2>
+        <p>Me especializo en Desarrollo Web, diseño web</p>
       </div>
-    </nav>
-  </header>
-
+      <section class="inicio-foto">
+        <img src="./images/fotoindex.jpg" alt="">
+      </section>
   
-    <main class="mainindex">
+  
+    <main id="inicio-grilla">
       <section class="SectionTitulo">
         <h1 class="H1Index">Desarrollador Web</h1>
         <h2 class="H2Index">Hola, Soy Martin Fernandez</h2>
-        <p class="pIndex"></p>
-        <div class="d-grid gap-2">
-          <button class="btn btn-primary" type="button">Contactame</button>
+        <p class="pIndex">Me especializo en Desarrollo Web, diseño web</p>
+        <div class="d-grid gap-6" style="width: 250px;">
+          <button type="button" class="btn btn-primary btn-lg">Contactame</button>
         </div>
       </section>
-
-     <div class="DivFotoPerfil">
-        <img  src="./images/fotoindex.jpg" alt="">
-     <div>
+      <div class="DivFotoPerfil">
+        <img src="./images/fotoindex.jpg" alt="" style="height: 105vh; width: 55vw;">
+        <div>
     </main>
-
-  <footer>
-    <div id="redes-sociales">
-      <div class="social-links">
-        <a href="https://www.instagram.com/martinn_fernandeez">
-          <img src="./images/instagram.png" alt="Instagram" class="social-icon" />
-        </a>
-        <a href="https://www.facebook.com/Martín Fernández">
-          <img src="./images/facebook.png" alt="Facebook" class="social-icon" />
-        </a>
-        <a href="https://wa.me/3815949243">
-          <img src="./images/whatsapp.png" alt="WhatsApp" class="social-icon" />
-        </a>
-        <a href="https://www.tiktok.com/@tincho_fenandez_okk">
-          <img src="./images/linkedin.png" alt="TikTok" class="social-icon" />
-        </a>
+  
+  
+  
+    <footer>
+      <div id="redes-sociales">
+        <div class="social-links">
+          <a href="https://www.instagram.com/martinn_fernandeez">
+            <img src="./images/instagram.png" alt="Instagram" class="social-icon" />
+          </a>
+          <a href="https://www.facebook.com/Martín Fernández">
+            <img src="./images/facebook.png" alt="Facebook" class="social-icon" />
+          </a>
+          <a href="https://wa.me/3815949243">
+            <img src="./images/whatsapp.png" alt="WhatsApp" class="social-icon" />
+          </a>
+          <a href="https://www.tiktok.com/@tincho_fenandez_okk">
+            <img src="./images/linkedin.png" alt="TikTok" class="social-icon" />
+          </a>
+        </div>
       </div>
-    </div>
-    <p>&copy; 2023 Mi Portafolio | Todos los derechos reservados</p>
-  </footer>
+      <p>&copy; 2023 Mi Portafolio | Todos los derechos reservados</p>
+    </footer>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
   </script>

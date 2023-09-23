@@ -8,8 +8,8 @@ nav {
 }
 
 body {
-  background-color: white;
-  font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF;
+  font-family: 'Mooli', sans-serif;
 }
 
 
@@ -45,11 +45,6 @@ a {
   height: 30px;
   margin: 0 10px;
   list-style: none;
-}
-/* pagina inicio */
-.DivFotoPerfil {
-  width: 700px;
-  height: 600px;
 }
 
 
@@ -130,35 +125,42 @@ form {
 
 
 
-grid-Inicio 
+/* grid-Inicio  */
 
- #inicio-grilla {
+#inicio-grilla {
   display: grid;
   grid-template-areas:
 
-    "section main"
-    "section main"
+    "div section"
+    "div section"
   ;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   column-gap: 10px;
+  height: 100vh;
+
 }
 
 .SectionTitulo {
-grid-area: section;
-display: flex;
-align-items: center;
-flex-direction: column;
-justify-content: center;
+  grid-area: section;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
 }
-.mainindex
-.DivFotoPerfil{
-  grid-area: divFotoPerfil;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+.DivFotoPerfil {
+  display: flex;
+  justify-content: flex-end;
 }
-aside {
+
+.titulo-inicio {
+  display: none;
+}
+.inicio-foto {
+  display: none;
 }
 
 
@@ -180,7 +182,6 @@ aside {
 footer {
   grid-area: footer;
   position: relative;
-  bottom: 0;
 }
 
 section {
@@ -202,12 +203,9 @@ nav {
 
 
 /* Estilos para cambiar color en hover */
-td:hover {
-  background-color: rgba(0, 18, 223, 1);
-}
-
 .btn {
   background-color: #008582;
+  border: none;
 }
 
 .btn:hover {
@@ -218,28 +216,59 @@ td:hover {
 /* Movil */
 
 @media screen and (max-width:768px) and (min-width:320px) {
-  #inicio-grilla {
+  #inicio {
     display: grid;
     grid-template-areas:
-      "header"
-      "section"
-      "main"
-      "aside"
-      "footer"
-    ;
 
+       "nav"
+      "div"
+      "section"
+      "footer"
+
+    ;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    column-gap: 5px;
+    grid-template-rows: 1fr 1fr;
     height: 100vh;
 
   }
 
-  .cta-button {
-    display: inline-block;
+  .h1 {
+    font-size: 2.5rem;
+    
+  }
+  .h2 {
+    font-size: 1.5rem;
+  }
+
+  .titulo-inicio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     align-items: center;
-    padding: 5px 10px;
-    margin: 10px;
+    margin: 50px;
+    margin-top: 50px;
+  }
+  .inicio-foto {
+    display: flex;
+    width: auto;
+
+  }
+
+  .DivFotoPerfil {
+    display: none;
+  }
+
+  .SectionTitulo {
+    display: none;
+  }
+
+  .d-grid {
+    display: none;
+  }
+  #inicio-grilla {
+    display: none;
   }
 
 }
