@@ -46,6 +46,12 @@ a {
   margin: 0 10px;
   list-style: none;
 }
+/* pagina inicio */
+.DivFotoPerfil {
+  width: 700px;
+  height: 600px;
+}
+
 
 /* Pagina Proyectos */
 .navbar-nav {
@@ -101,7 +107,12 @@ form {
   width: 500px;
   padding: 20px;
   border-radius: 17px;
-  margin: 30px;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  background-color: #C5C7C9;
 }
 
 .d-grid {
@@ -119,62 +130,37 @@ form {
 
 
 
-/* grid-Inicio */
+grid-Inicio 
 
-#inicio-grilla {
+ #inicio-grilla {
   display: grid;
   grid-template-areas:
-    "header header"
-    "main section"
-    "main aside"
-    "footer footer"
+
+    "section main"
+    "section main"
   ;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0fr 1fr 2fr 1fr;
-  column-gap: 3px;
-  height: 100vh;
+  grid-template-rows: 1fr;
+  column-gap: 10px;
 }
 
-header {
-  grid-area: header;
+.SectionTitulo {
+grid-area: section;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
 }
-
-section {
-  grid-area: section;
-  display: block;
-  justify-content: center;
-  align-self: center;
+.mainindex
+.DivFotoPerfil{
+  grid-area: divFotoPerfil;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-footer {
-  grid-area: footer;
-}
-
-main {
-  grid-area: main;
-  align-self: center;
-}
-
-.img {
-  justify-content: flex-start;
-  grid-area: aside;
-  width: 100%;
-  height: auto;
-
-}
-
 aside {
-  grid-area: aside;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
-nav {
-  grid-area: nav;
-}
 
 /* Grid-Sobre Mi */
 #-sobre {
