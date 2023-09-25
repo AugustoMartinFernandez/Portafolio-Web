@@ -6,13 +6,10 @@
 nav {
   background-color: #0b110d;
 }
-
 body {
   background-color: #FFFFFF;
   font-family: 'Mooli', sans-serif;
 }
-
-
 footer {
   text-align: center;
   padding: 10px;
@@ -47,7 +44,6 @@ a {
   list-style: none;
 }
 
-
 /* Pagina Proyectos */
 .navbar-nav {
   display: flex;
@@ -71,15 +67,12 @@ a {
   color: #E8E8E8;
 }
 
-
-
 .card {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   background-color: #0b110d;
   color: #E8E8E8;
 }
-
 .card-img-top {
   margin-bottom: 3px;
   padding: 15px;
@@ -123,8 +116,6 @@ form {
   margin: 5px;
 }
 
-
-
 /* grid-Inicio  */
 
 #inicio-grilla {
@@ -165,41 +156,43 @@ form {
 
 
 /* Grid-Sobre Mi */
-#-sobre {
+#sobre- {
+
   display: grid;
   grid-template-areas:
+  
+    "main aside"
+    "main  aside"
 
-    "section  aside"
-    "section  aside"
-    "footer footer"
   ;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 1fr;
-  column-gap: 5px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  column-gap: 25px;
   height: 100vh;
 }
 
-footer {
-  grid-area: footer;
-  position: relative;
+.container-main {
+ display: flex;
 }
 
-section {
-  grid-area: section;
-  font-family: "Poppins", sans-serif;
-  justify-self: start;
+.d-grid{
+  display: flex;
+}
+.aside-sobre {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: flex-start;
+ flex-wrap: wrap;
+ margin-top: 70px;
+}
+.texto-p {
+  font-size: large;
+}
+.div-img {
+  display: flex;
 }
 
-section img {
-  grid-area: img;
-  max-height: 600px;
-  max-width: 900px;
-  align-self: start;
-}
-
-nav {
-  grid-area: nav;
-}
 
 
 /* Estilos para cambiar color en hover */
@@ -228,17 +221,10 @@ nav {
     ;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 100vh;
+    height: 105vh;
 
   }
 
-  .h1 {
-    font-size: 2.5rem;
-    
-  }
-  .h2 {
-    font-size: 1.5rem;
-  }
 
   .titulo-inicio {
     display: flex;
@@ -247,8 +233,8 @@ nav {
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin: 50px;
-    margin-top: 50px;
+    margin: 35px;
+    margin-top: 30px;
   }
   .inicio-foto {
     display: flex;
