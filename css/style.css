@@ -107,7 +107,7 @@ form {
 }
 
 .d-grid {
-  padding-top: 35px;
+  padding-top: 5px;
 }
 
 /* estilos-servicios */
@@ -195,6 +195,7 @@ form {
 .texto-p {
   font-size: large;
 }
+
 .main_sobre {
   display: none;
 }
@@ -209,6 +210,11 @@ form {
   background-color: blue;
 }
 
+.Herramientas-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Movil */
 
@@ -243,18 +249,23 @@ form {
   .img-inicio {
     width: 100%;
   }
+
   .inicio-foto {
     display: flex;
   }
+
   .DivFotoPerfil {
     display: none;
   }
+
   .SectionTitulo {
     display: none;
   }
+
   .d-grid {
     display: none;
   }
+
   #inicio-grilla {
     display: none;
   }
@@ -265,16 +276,17 @@ form {
 
     display: grid;
     grid-template-areas:
-  
+
       "nav"
       "main"
       "footer"
-  
+
     ;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     height: 100vh;
   }
+
   .div-botones {
     display: flex;
     flex-direction: column;
@@ -284,22 +296,23 @@ form {
   .main_sobre {
     display: flex;
   }
-  
+
   .container-main {
     display: none;
   }
-  
+
   .d-grid {
     display: flex;
   }
-  
+
   .aside-sobre {
-display: none;
+    display: none;
   }
-  
+
   .texto-p {
     display: none;
   }
+
   #sobre- {
     display: none;
   }
