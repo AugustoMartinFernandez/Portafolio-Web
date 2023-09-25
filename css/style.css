@@ -223,7 +223,7 @@ form {
     ;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 105vh;
+    height: 100vh;
 
   }
 
@@ -238,10 +238,12 @@ form {
     margin-top: 30px;
   }
 
+  .img-inicio {
+    width: 100%;
+  }
+
   .inicio-foto {
     display: flex;
-    width: 100%;
-
   }
 
   .DivFotoPerfil {
