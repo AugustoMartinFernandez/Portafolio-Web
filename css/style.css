@@ -3,22 +3,45 @@
   padding: 0;
 }
 
+.span1 {
+  display: block;
+  font-family: "Mooli", sans-serif;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 23ch;
+  color: yellow;
+  animation: typing 7s steps(21), blink .7s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 nav {
   background-color: black;
 }
 
 body {
   background: rgb(230, 218, 218);
-  background: linear-gradient(
-    0deg,
-    rgba(230, 218, 218, 1) 0%,
-    rgba(39, 64, 70, 1) 50%
-  );
+  background: linear-gradient(0deg,
+      rgba(230, 218, 218, 1) 0%,
+      rgba(39, 64, 70, 1) 50%);
   font-family: "Mooli", sans-serif;
 }
+
 .body-sobremi {
-  background: rgb(0,133,130);
-background: linear-gradient(0deg, rgba(0,133,130,1) 3%, rgba(3,102,98,1) 7%, rgba(8,51,47,1) 28%, rgba(10,27,23,1) 43%, rgba(11,19,15,1) 56%, rgba(11,17,13,1) 82%);
+  background: rgb(0, 133, 130);
+  background: linear-gradient(0deg, rgba(0, 133, 130, 1) 3%, rgba(3, 102, 98, 1) 7%, rgba(8, 51, 47, 1) 28%, rgba(10, 27, 23, 1) 43%, rgba(11, 19, 15, 1) 56%, rgba(11, 17, 13, 1) 82%);
 }
 
 h1,
@@ -84,8 +107,7 @@ a {
 }
 
 .navbar-toggler {
-  background-color: #008582;
-  color: #e8e8e8;
+  background: linear-gradient(to right, #43c6ac, #191654);
 }
 
 .card {
@@ -93,13 +115,11 @@ a {
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   border-radius: 10px;
   background: rgb(0, 133, 130);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 133, 130, 1) 3%,
-    rgba(3, 102, 98, 1) 7%,
-    rgba(8, 51, 47, 1) 24%,
-    rgba(11, 17, 13, 1) 44%
-  );
+  background: linear-gradient(0deg,
+      rgba(0, 133, 130, 1) 3%,
+      rgba(3, 102, 98, 1) 7%,
+      rgba(8, 51, 47, 1) 24%,
+      rgba(11, 17, 13, 1) 44%);
   color: #e8e8e8;
 }
 
@@ -119,9 +139,10 @@ a {
 }
 
 form {
-  background-color: black;
+  background: rgb(0, 133, 130);
+  background: linear-gradient(0deg, rgba(0, 133, 130, 1) 3%, rgba(3, 102, 98, 1) 7%, rgba(8, 51, 47, 1) 28%, rgba(10, 27, 23, 1) 43%, rgba(11, 19, 15, 1) 56%, rgba(11, 17, 13, 1) 82%);
   color: #e8e8e8;
-  height: 500px;
+  height: 480px;
   width: 500px;
   padding: 20px;
   border-radius: 17px;
@@ -155,7 +176,8 @@ form {
 
 /* Estilos para cambiar color en hover */
 .btn {
-  background-color: black;
+  background: rgb(11, 17, 13);
+  background: linear-gradient(0deg, rgba(11, 17, 13, 1) 19%, rgba(18, 30, 45, 1) 37%, rgba(24, 40, 71, 1) 49%, rgba(31, 53, 103, 1) 64%, rgba(36, 63, 128, 1) 73%, rgba(63, 111, 251, 1) 100%);
   border: none;
 }
 
@@ -218,9 +240,11 @@ form {
   column-gap: 10px;
   height: 100vh;
 }
+
 .h1-sobre {
   display: none;
 }
+
 .container-main {
   display: flex;
 }
@@ -258,7 +282,9 @@ form {
       "nav"
       "section"
       "main"
-      "footer";
+      "section2-inicio"
+      "footer"
+    ;
     grid-template-columns: 1fr;
     height: auto;
   }
@@ -280,8 +306,9 @@ form {
   }
 
   .section2-inicio {
-    display: none;
+    display: block;
   }
+
 
   #grid-inicio {
     display: none;
@@ -329,8 +356,8 @@ form {
 
   .main_sobre {
     display: flex;
-    background: rgb(0,133,130);
-background: linear-gradient(0deg, rgba(0,133,130,1) 3%, rgba(3,102,98,1) 7%, rgba(8,51,47,1) 28%, rgba(10,27,23,1) 43%, rgba(11,19,15,1) 56%, rgba(11,17,13,1) 82%);
+    background: rgb(0, 133, 130);
+    background: linear-gradient(0deg, rgba(0, 133, 130, 1) 3%, rgba(3, 102, 98, 1) 7%, rgba(8, 51, 47, 1) 28%, rgba(10, 27, 23, 1) 43%, rgba(11, 19, 15, 1) 56%, rgba(11, 17, 13, 1) 82%);
   }
 
   .container-main {
