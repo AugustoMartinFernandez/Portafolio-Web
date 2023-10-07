@@ -4,6 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +52,8 @@
   </header>
 
   <div>
-    <h1 style="text-align: center; margin-top: 15px;">Proyectos</h1>
+    <h1 class="animate__animated animate__wobble" style="text-align: center; margin-top: 15px; color: black;">Proyectos
+    </h1>
   </div>
 
 
@@ -58,7 +61,7 @@
   <div class="div-proyectoss">
     <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3 g-4">
       <div class="col">
-        <div class="card h-70">
+        <div class="card h-70" data-aos="fade-right">
           <img src="../images/Cursosdesarrolloweb.gif" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Cursos Desarrollo Web</h5>
@@ -71,7 +74,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card h-70">
+        <div class="card h-70" data-aos="fade-left">
           <img src="../images/Thewitchersitioinformativo.gif" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">The Witcher</h5>
@@ -84,7 +87,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card h-70">
+        <div class="card h-70" data-aos="fade-right">
           <img src="../images/EnmiSitio.gif" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">The Witcher</h5>
@@ -115,9 +118,12 @@
         <img src="../images/linkedin.png" alt="TikTok" class="social-icon" />
       </a>
     </div>
-    <p>&copy; 2023 Mi Portafolio | Todos los derechos reservados</p>
+    <p class="p-footer">&copy; 2023 Mi Portafolio | Todos los derechos reservados</p>
   </footer>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
   </script>

@@ -6,10 +6,11 @@
 /* estilos nav */
 nav {
   background-color: black;
-}
-nav .navbar-toggler {
-  background: rgb(220, 36, 36);
-  background: linear-gradient(194deg, rgb(220, 36, 36) 0%, rgb(74, 86, 157) 96%);
+
+  .navbar-toggler {
+    background: rgb(220, 36, 36);
+    background: linear-gradient(194deg, rgba(220, 36, 36, 1) 0%, rgba(74, 86, 157, 1) 96%);
+  }
 }
 
 .navbar-nav {
@@ -19,21 +20,22 @@ nav .navbar-toggler {
   margin-bottom: 0;
   list-style: none;
   align-items: center;
-}
-.navbar-nav .nav-link {
-  color: white;
+
+  .nav-link {
+    color: white;
+  }
 }
 
 body {
   background: rgb(51, 77, 80);
-  background: linear-gradient(0deg, rgb(51, 77, 80) 3%, rgb(51, 77, 80) 18%, rgb(51, 77, 80) 28%, rgb(144, 143, 116) 82%);
+  background: linear-gradient(0deg, rgba(51, 77, 80, 1) 3%, rgba(51, 77, 80, 1) 18%, rgba(51, 77, 80, 1) 28%, rgba(144, 143, 116, 1) 82%);
   font-family: "Mooli", sans-serif;
   max-height: max-content;
 }
 
 .body-sobremi {
   background: rgb(0, 133, 130);
-  background: linear-gradient(0deg, rgb(0, 133, 130) 3%, rgb(3, 102, 98) 7%, rgb(8, 51, 47) 28%, rgb(10, 27, 23) 43%, rgb(11, 19, 15) 56%, rgb(11, 17, 13) 82%);
+  background: linear-gradient(0deg, rgba(0, 133, 130, 1) 3%, rgba(3, 102, 98, 1) 7%, rgba(8, 51, 47, 1) 28%, rgba(10, 27, 23, 1) 43%, rgba(11, 19, 15, 1) 56%, rgba(11, 17, 13, 1) 82%);
 }
 
 h1,
@@ -52,25 +54,29 @@ footer {
   background-color: black;
   text-align: center;
   padding: 10px;
-}
-footer .-content {
-  max-width: 800px;
-  margin: 0 auto;
+
+  .-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
 
 /* iconos del footer  */
+
 .social-links {
   margin-top: 10px;
   text-decoration: none;
-}
-.social-links a {
-  text-decoration: none;
-}
-.social-links a .social-icon {
-  width: 30px;
-  height: 30px;
-  margin: 0 10px;
-  list-style: none;
+
+  a {
+    text-decoration: none;
+
+    .social-icon {
+      width: 30px;
+      height: 30px;
+      margin: 0 10px;
+      list-style: none;
+    }
+  }
 }
 
 .p-footer {
@@ -82,12 +88,17 @@ footer .-content {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   border-radius: 10px;
   background: rgb(0, 133, 130);
-  background: linear-gradient(0deg, rgb(0, 133, 130) 3%, rgb(3, 102, 98) 7%, rgb(8, 51, 47) 24%, rgb(11, 17, 13) 44%);
+  background: linear-gradient(0deg,
+      rgba(0, 133, 130, 1) 3%,
+      rgba(3, 102, 98, 1) 7%,
+      rgba(8, 51, 47, 1) 24%,
+      rgba(11, 17, 13, 1) 44%);
   color: #e8e8e8;
-}
-.card .card-img-top {
-  margin-bottom: 3px;
-  padding: 8px;
+
+  .card-img-top {
+    margin-bottom: 3px;
+    padding: 8px;
+  }
 }
 
 .card:hover {
@@ -98,20 +109,22 @@ footer .-content {
 .containerform {
   display: flex;
   justify-content: center;
-}
-.containerform form {
-  background: rgb(0, 133, 130);
-  background: linear-gradient(0deg, rgb(0, 133, 130) 3%, rgb(3, 102, 98) 7%, rgb(8, 51, 47) 28%, rgb(10, 27, 23) 43%, rgb(11, 19, 15) 56%, rgb(11, 17, 13) 82%);
-  color: #e8e8e8;
-  height: 480px;
-  width: 500px;
-  padding: 20px;
-  border-radius: 17px;
-  margin: 10px;
-  margin-bottom: 30px;
-}
-.containerform form .form-control {
-  background-color: #c5c7c9;
+
+  form {
+    background: rgb(0, 133, 130);
+    background: linear-gradient(0deg, rgba(0, 133, 130, 1) 3%, rgba(3, 102, 98, 1) 7%, rgba(8, 51, 47, 1) 28%, rgba(10, 27, 23, 1) 43%, rgba(11, 19, 15, 1) 56%, rgba(11, 17, 13, 1) 82%);
+    color: #e8e8e8;
+    height: 480px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 17px;
+    margin: 10px;
+    margin-bottom: 30px;
+
+    .form-control {
+      background-color: #c5c7c9;
+    }
+  }
 }
 
 /* div proyectos */
@@ -127,33 +140,39 @@ footer .-content {
 .main-servicios {
   margin: 30px;
   overflow: hidden;
-}
-.main-servicios .Herramientas-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+  .Herramientas-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* Estilos para cambiar color en hover */
 .btn {
   background: rgb(11, 17, 13);
-  background: linear-gradient(0deg, rgb(11, 17, 13) 19%, rgb(18, 30, 45) 37%, rgb(24, 40, 71) 49%, rgb(31, 53, 103) 64%, rgb(36, 63, 128) 73%, rgb(63, 111, 251) 100%);
+  background: linear-gradient(0deg, rgba(11, 17, 13, 1) 19%, rgba(18, 30, 45, 1) 37%, rgba(24, 40, 71, 1) 49%, rgba(31, 53, 103, 1) 64%, rgba(36, 63, 128, 1) 73%, rgba(63, 111, 251, 1) 100%);
   border: none;
-}
-.btn .btn:hover {
-  background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+
+  .btn:hover {
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  }
 }
 
+
+// Estilos de a index
 .a-index {
   text-decoration: none;
   color: #fd1d1d;
 }
 
+// accordion de index
+
 .accordion-item {
   background: rgb(51, 77, 80);
-  background: linear-gradient(0deg, rgb(51, 77, 80) 3%, rgb(51, 77, 80) 34%, rgb(51, 77, 80) 40%, rgb(144, 143, 116) 100%);
+  background: linear-gradient(0deg, rgba(51, 77, 80, 1) 3%, rgba(51, 77, 80, 1) 34%, rgba(51, 77, 80, 1) 40%, rgba(144, 143, 116, 1) 100%);
   color: white;
 }
 
@@ -163,6 +182,7 @@ footer .-content {
 }
 
 /* Aniamciones pagina de incio  */
+
 .h1-inicio {
   font-size: 2rem;
   font-weight: 700;
@@ -179,21 +199,24 @@ footer .-content {
   border-right: 4px solid;
   width: 23ch;
   color: yellow;
-  animation: typing 6s steps(21), blink 0.7s infinite step-end alternate;
+  animation: typing 6s steps(21), blink .7s infinite step-end alternate;
   overflow: hidden;
-}
-@keyframes typing {
-  from {
-    width: 0;
-    @keyframes blink {
-      50% {
-        border-color: transparent;
+
+  @keyframes typing {
+    from {
+      width: 0;
+
+      @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
       }
     }
   }
 }
 
 /* gird-inicio */
+
 #grid-inicio {
   display: grid;
   grid-template-areas: "section main";
@@ -228,7 +251,9 @@ footer .-content {
 /* Grid-Sobre Mi */
 #sobre- {
   display: grid;
-  grid-template-areas: "main aside" "main  aside";
+  grid-template-areas:
+    "main aside"
+    "main  aside";
   grid-template-columns: 0.6fr 1fr;
   grid-template-rows: 1fr;
   column-gap: 10px;
@@ -272,10 +297,17 @@ footer .-content {
 @media screen and (max-width: 768px) and (min-width: 320px) {
   #div_inicio {
     display: grid;
-    grid-template-areas: "nav" "section" "main" "section2-inicio" "footer";
+    grid-template-areas:
+      "nav"
+      "section"
+      "main"
+      "section2-inicio"
+      "footer"
+    ;
     grid-template-columns: 1fr;
     height: auto;
   }
+
   .section-inicio {
     display: flex;
     flex-direction: column;
@@ -283,6 +315,7 @@ footer .-content {
     align-content: center;
     justify-content: center;
   }
+
   .main-inicio {
     display: flex;
     align-items: center;
@@ -290,63 +323,78 @@ footer .-content {
     padding-bottom: 50px;
     padding-right: 30px;
   }
+
   .section2-inicio {
     display: block;
   }
+
   #grid-inicio {
     display: none;
   }
+
   .div_inicio {
     display: flex;
     flex-direction: column;
   }
+
   .inicio_sec {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .mainn-inicio {
     display: flex;
     margin: 10px;
   }
 }
+
 /* Movil */
 @media screen and (max-width: 768px) and (min-width: 320px) {
   #sobre_mi {
     display: grid;
-    grid-template-areas: "nav" "main" "footer";
+    grid-template-areas:
+      "nav"
+      "main"
+      "footer";
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     height: 100vh;
   }
+
   .h1-sobre {
     display: none;
   }
+
   .div-botones {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .main_sobre {
     display: flex;
     background: rgb(0, 133, 130);
-    background: linear-gradient(0deg, rgb(0, 133, 130) 3%, rgb(3, 102, 98) 7%, rgb(8, 51, 47) 28%, rgb(10, 27, 23) 43%, rgb(11, 19, 15) 56%, rgb(11, 17, 13) 82%);
+    background: linear-gradient(0deg, rgba(0, 133, 130, 1) 3%, rgba(3, 102, 98, 1) 7%, rgba(8, 51, 47, 1) 28%, rgba(10, 27, 23, 1) 43%, rgba(11, 19, 15, 1) 56%, rgba(11, 17, 13, 1) 82%);
   }
+
   .container-main {
     display: none;
   }
+
   .d-grid {
     display: flex;
   }
+
   .aside-sobre {
     display: none;
   }
+
   .texto-p {
     display: none;
   }
+
   #sobre- {
     display: none;
   }
 }
-
-/*# sourceMappingURL=style.css.map */

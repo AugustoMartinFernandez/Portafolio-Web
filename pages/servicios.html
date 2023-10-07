@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
@@ -48,13 +50,14 @@
   </header>
 
   <div>
-    <h1 style="text-align: center; margin-top: 10px;">Servicios</h1>
+    <h1 style="text-align: center; margin-top: 10px; color: black;">Servicios</h1>
   </div>
 
   <main class="main-servicios">
-    <div class="row row-cols-1 row-cols-sm-12 row-cols-md-12 row-cols-lg-2 row-cols-xl-4 row-cols-xxl-4 g-3" style="margin-bottom: 10px; width: auto;" >
+    <div class="row row-cols-1 row-cols-sm-12 row-cols-md-12 row-cols-lg-2 row-cols-xl-4 row-cols-xxl-4 g-3"
+      style="margin-bottom: 10px; width: auto;">
       <div class="col">
-        <div class="card">
+        <div class="card" data-aos="zoom-in-down">
           <img src="../images/Mantenimientosdesitios.gif" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Servicios de</h5>
@@ -78,7 +81,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card" data-aos="zoom-in-left">
           <img src="../images/gestiondeproyectos.gif" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Gestión de Proyectos</h5>
@@ -102,7 +105,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card" data-aos="zoom-in-right">
           <img src="../images/Cursosdesarrolloweb.gif" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Desarrollador Web</h5>
@@ -127,7 +130,7 @@
         </div>
       </div>
       <div class="col">
-        <div class="card">
+        <div class="card" data-aos="flip-right">
           <img src="../images/Mantenimientosdesitios.gif" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Desarrollador Web</h5>
@@ -148,9 +151,9 @@
             <div class="d-grid gap-2">
               <a href="./contacto.html" class="btn btn-primary" role="button">Contactame</a>
             </div>
+          </div>
         </div>
       </div>
-    </div>
   </main>
 
 
@@ -166,13 +169,18 @@
       <a href="https://wa.me/3815949243" target="_blank">
         <img src="../images/whatsapp.png" alt="WhatsApp" class="social-icon" />
       </a>
-      <a href="https://www.linkedin.com/in/mart%C3%ADn-fern%C3%A1ndez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+      <a href="https://www.linkedin.com/in/mart%C3%ADn-fern%C3%A1ndez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        target="_blank">
         <img src="../images/linkedin.png" alt="TikTok" class="social-icon" />
       </a>
     </div>
     </div>
-    <p>&copy; 2023 Mi Portafolio | Todos los derechos reservados</p>
+    <p class="p-footer">&copy; 2023 Mi Portafolio | Todos los derechos reservados</p>
   </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
   </script>
