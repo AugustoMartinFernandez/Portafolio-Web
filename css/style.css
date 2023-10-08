@@ -25,8 +25,8 @@ nav .navbar-toggler {
 }
 
 body {
-  background: rgb(51, 77, 80);
-  background: linear-gradient(0deg, rgb(51, 77, 80) 3%, rgb(51, 77, 80) 18%, rgb(51, 77, 80) 28%, rgb(144, 143, 116) 82%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 16%, rgb(8, 34, 25) 38%, rgb(29, 120, 88) 73%, rgb(48, 195, 143) 96%);
   font-family: "Mooli", sans-serif;
   max-height: max-content;
 }
@@ -91,7 +91,7 @@ footer .-content {
 }
 
 .card:hover {
-  border: 1.5px solid black;
+  border: 1.5px solid white;
 }
 
 /* formulario */
@@ -136,11 +136,12 @@ footer .-content {
 
 /* Estilos para cambiar color en hover */
 .btn {
-  background: rgb(11, 17, 13);
-  background: linear-gradient(0deg, rgb(11, 17, 13) 19%, rgb(18, 30, 45) 37%, rgb(24, 40, 71) 49%, rgb(31, 53, 103) 64%, rgb(36, 63, 128) 73%, rgb(63, 111, 251) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 42%, rgb(233, 233, 8) 100%);
   border: none;
 }
-.btn .btn:hover {
+
+.btn:hover {
   background: #833ab4;
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
@@ -152,8 +153,8 @@ footer .-content {
 }
 
 .accordion-item {
-  background: rgb(51, 77, 80);
-  background: linear-gradient(0deg, rgb(51, 77, 80) 3%, rgb(51, 77, 80) 34%, rgb(51, 77, 80) 40%, rgb(144, 143, 116) 100%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 16%, rgb(8, 34, 25) 38%, rgb(29, 120, 88) 73%, rgb(48, 195, 143) 96%);
   color: white;
 }
 
@@ -163,12 +164,20 @@ footer .-content {
 }
 
 /* Aniamciones pagina de incio  */
-.h1-inicio {
-  font-size: 2rem;
-  font-weight: 700;
-  color: black;
-  text-align: center;
-  animation: slideRight 4s ease-in-out infinite;
+.h_inicio {
+  animation: h_inicio 2s linear infinite;
+}
+@keyframes h_inicio {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-30px);
+    /* Ajusta la distancia que deseas que se mueva */
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .span1 {
