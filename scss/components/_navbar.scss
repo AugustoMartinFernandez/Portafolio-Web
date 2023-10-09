@@ -1,13 +1,9 @@
 nav {
-  background-color: black;
+  background-color: $color-fondo-nav;
 
   .navbar-toggler {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(
-      108deg,
-      rgba(0, 0, 0, 1) 10%,
-      rgba(12, 158, 72, 1) 56%
-    );
+    background: $color-fondo-navbar-toggler;
+    background: $color-fondo-navbar-toggler-gradient;
   }
 }
 
@@ -20,6 +16,6 @@ nav {
   align-items: center;
 
   .nav-link {
-    color: white;
+    color: $color-texto-enlaces-nav;
   }
 }
