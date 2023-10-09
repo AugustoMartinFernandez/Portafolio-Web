@@ -1,0 +1,25 @@
+nav {
+  background-color: black;
+
+  .navbar-toggler {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      108deg,
+      rgba(0, 0, 0, 1) 10%,
+      rgba(12, 158, 72, 1) 56%
+    );
+  }
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  align-items: center;
+
+  .nav-link {
+    color: white;
+  }
+}

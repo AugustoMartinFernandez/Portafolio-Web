@@ -1,0 +1,81 @@
+@keyframes rubberBand {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scaleX(1.25) scaleY(0.75);
+  }
+  40% {
+    transform: scaleX(0.75) scaleY(1.25);
+  }
+  50% {
+    transform: scale(1);
+  }
+  65% {
+    transform: scale(0.95);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.h_inicio {
+  animation: h_inicio 2s linear infinite;
+
+  @keyframes h_inicio {
+    0% {
+      transform: translateX(0);
+    }
+
+    50% {
+      transform: translateX(-30px);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+/* Definir la animación de pulso */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.logo {
+  animation: pulse 4s infinite; /* Duración de 2 segundos, repetición infinita */
+}
+
+.span1 {
+  display: block;
+  font-family: "Mooli", sans-serif;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 23ch;
+  color: yellow;
+  animation: typing 6s steps(21), blink 0.7s infinite step-end alternate;
+  overflow: hidden;
+
+  @keyframes typing {
+    from {
+      width: 0;
+
+      @keyframes blink {
+        50% {
+          border-color: transparent;
+        }
+      }
+    }
+  }
+}

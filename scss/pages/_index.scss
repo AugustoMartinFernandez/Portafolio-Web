@@ -1,0 +1,18 @@
+.accordion-item {
+  background: rgb(10, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(10, 0, 0, 1) 30%,
+    rgba(13, 32, 12, 1) 52%,
+    rgba(15, 47, 13, 1) 65%,
+    rgba(17, 65, 14, 1) 72%,
+    rgba(18, 80, 15, 1) 77%,
+    rgba(23, 126, 18, 1) 100%
+  );
+  color: white;
+
+  .a-index {
+    text-decoration: none;
+    color: #fd1d1d;
+  }
+}

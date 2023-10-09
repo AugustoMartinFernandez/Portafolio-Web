@@ -1,0 +1,27 @@
+body {
+  background: rgb(10, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(10, 0, 0, 1) 30%,
+    rgba(13, 32, 12, 1) 52%,
+    rgba(15, 47, 13, 1) 65%,
+    rgba(17, 65, 14, 1) 72%,
+    rgba(18, 80, 15, 1) 77%,
+    rgba(23, 126, 18, 1) 100%
+  );
+  font-family: "Mooli", sans-serif;
+  max-height: max-content;
+}
+
+.body-sobremi {
+  background: rgb(0, 133, 130);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 133, 130, 1) 3%,
+    rgba(3, 102, 98, 1) 7%,
+    rgba(8, 51, 47, 1) 28%,
+    rgba(10, 27, 23, 1) 43%,
+    rgba(11, 19, 15, 1) 56%,
+    rgba(11, 17, 13, 1) 82%
+  );
+}

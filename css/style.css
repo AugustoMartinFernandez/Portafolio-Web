@@ -1,15 +1,30 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
 }
 
-/* estilos nav */
+h1 {
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: black;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #eaeaea;
+}
+
 nav {
   background-color: black;
 }
 nav .navbar-toggler {
-  background: rgb(220, 36, 36);
-  background: linear-gradient(194deg, rgb(220, 36, 36) 0%, rgb(74, 86, 157) 96%);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(108deg, rgb(0, 0, 0) 10%, rgb(12, 158, 72) 56%);
 }
 
 .navbar-nav {
@@ -24,32 +39,10 @@ nav .navbar-toggler {
   color: white;
 }
 
-body {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgb(0, 0, 0) 16%, rgb(8, 34, 25) 38%, rgb(29, 120, 88) 73%, rgb(48, 195, 143) 96%);
-  font-family: "Mooli", sans-serif;
-  max-height: max-content;
-}
-
-.body-sobremi {
-  background: rgb(0, 133, 130);
-  background: linear-gradient(0deg, rgb(0, 133, 130) 3%, rgb(3, 102, 98) 7%, rgb(8, 51, 47) 28%, rgb(10, 27, 23) 43%, rgb(11, 19, 15) 56%, rgb(11, 17, 13) 82%);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  color: #eaeaea;
-}
-
 /* footer */
 footer {
   color: azure;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   text-align: center;
   padding: 10px;
 }
@@ -75,131 +68,6 @@ footer .-content {
 
 .p-footer {
   margin-top: 10px;
-}
-
-/* Estilos de card */
-.card {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  border-radius: 10px;
-  background: rgb(0, 133, 130);
-  background: linear-gradient(0deg, rgb(0, 133, 130) 3%, rgb(3, 102, 98) 7%, rgb(8, 51, 47) 24%, rgb(11, 17, 13) 44%);
-  color: #e8e8e8;
-}
-.card .card-img-top {
-  margin-bottom: 3px;
-  padding: 8px;
-}
-
-.card:hover {
-  border: 1.5px solid white;
-}
-
-/* formulario */
-.containerform {
-  display: flex;
-  justify-content: center;
-}
-.containerform form {
-  background: rgb(0, 133, 130);
-  background: linear-gradient(0deg, rgb(0, 133, 130) 3%, rgb(3, 102, 98) 7%, rgb(8, 51, 47) 28%, rgb(10, 27, 23) 43%, rgb(11, 19, 15) 56%, rgb(11, 17, 13) 82%);
-  color: #e8e8e8;
-  height: 480px;
-  width: 500px;
-  padding: 20px;
-  border-radius: 17px;
-  margin: 10px;
-  margin-bottom: 30px;
-}
-.containerform form .form-control {
-  background-color: #c5c7c9;
-}
-
-/* div proyectos */
-.div-proyectoss {
-  display: flex;
-  flex-direction: row;
-  padding: 20px;
-  margin: 10px;
-  overflow: hidden;
-}
-
-/* estilos-servicios */
-.main-servicios {
-  margin: 30px;
-  overflow: hidden;
-}
-.main-servicios .Herramientas-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Estilos para cambiar color en hover */
-.btn {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 42%, rgb(233, 233, 8) 100%);
-  border: none;
-}
-
-.btn:hover {
-  background: #833ab4;
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-}
-
-.a-index {
-  text-decoration: none;
-  color: #fd1d1d;
-}
-
-.accordion-item {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgb(0, 0, 0) 16%, rgb(8, 34, 25) 38%, rgb(29, 120, 88) 73%, rgb(48, 195, 143) 96%);
-  color: white;
-}
-
-/* Pading de btn */
-.d-grid {
-  padding-top: 5px;
-}
-
-/* Aniamciones pagina de incio  */
-.h_inicio {
-  animation: h_inicio 2s linear infinite;
-}
-@keyframes h_inicio {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(-30px);
-    /* Ajusta la distancia que deseas que se mueva */
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-.span1 {
-  display: block;
-  font-family: "Mooli", sans-serif;
-  font-size: 1.5rem;
-  white-space: nowrap;
-  border-right: 4px solid;
-  width: 23ch;
-  color: yellow;
-  animation: typing 6s steps(21), blink 0.7s infinite step-end alternate;
-  overflow: hidden;
-}
-@keyframes typing {
-  from {
-    width: 0;
-    @keyframes blink {
-      50% {
-        border-color: transparent;
-      }
-    }
-  }
 }
 
 /* gird-inicio */
@@ -277,7 +145,115 @@ footer .-content {
   display: none;
 }
 
-/* Movil */
+.accordion-item {
+  background: rgb(10, 0, 0);
+  background: linear-gradient(0deg, rgb(10, 0, 0) 30%, rgb(13, 32, 12) 52%, rgb(15, 47, 13) 65%, rgb(17, 65, 14) 72%, rgb(18, 80, 15) 77%, rgb(23, 126, 18) 100%);
+  color: white;
+}
+.accordion-item .a-index {
+  text-decoration: none;
+  color: #fd1d1d;
+}
+
+.btn {
+  background-color: black;
+  border: 0.2px solid white;
+}
+
+.btn:hover {
+  background: rgb(223, 85, 0);
+  background: linear-gradient(252deg, rgb(223, 85, 0) 0%, rgb(183, 183, 0) 100%);
+}
+
+.whatsapp-button img {
+  animation: rubberBand 2s infinite;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+.whatsapp-button img {
+  width: 53px;
+  height: 53px;
+  border-radius: 30%;
+  padding: 8px;
+}
+.whatsapp-button img :hover {
+  background-color: #128c7e;
+}
+
+.d-grid {
+  padding-top: 5px;
+}
+
+.card {
+  background: rgb(15, 52, 67);
+  background: linear-gradient(180deg, rgb(15, 52, 67) 0%, rgb(15, 52, 67) 59%, rgb(19, 73, 77) 75%, rgb(25, 102, 92) 83%, rgb(52, 232, 158) 99%);
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  color: #e8e8e8;
+  border: 2px solid black;
+}
+.card .card-img-top {
+  margin-bottom: 3px;
+  padding: 8px;
+}
+
+.card:hover {
+  border: 2px solid #34e89e;
+}
+
+.containerform {
+  display: flex;
+  justify-content: center;
+}
+.containerform form {
+  background: rgb(0, 133, 130);
+  background: linear-gradient(0deg, rgb(0, 133, 130) 3%, rgb(3, 102, 98) 7%, rgb(8, 51, 47) 28%, rgb(10, 27, 23) 43%, rgb(11, 19, 15) 56%, rgb(11, 17, 13) 82%);
+  color: #e8e8e8;
+  height: 480px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 17px;
+  margin: 10px;
+  margin-bottom: 30px;
+}
+.containerform form .form-control {
+  background-color: #c5c7c9;
+}
+
+body {
+  background: rgb(10, 0, 0);
+  background: linear-gradient(0deg, rgb(10, 0, 0) 30%, rgb(13, 32, 12) 52%, rgb(15, 47, 13) 65%, rgb(17, 65, 14) 72%, rgb(18, 80, 15) 77%, rgb(23, 126, 18) 100%);
+  font-family: "Mooli", sans-serif;
+  max-height: max-content;
+}
+
+.body-sobremi {
+  background: rgb(0, 133, 130);
+  background: linear-gradient(0deg, rgb(0, 133, 130) 3%, rgb(3, 102, 98) 7%, rgb(8, 51, 47) 28%, rgb(10, 27, 23) 43%, rgb(11, 19, 15) 56%, rgb(11, 17, 13) 82%);
+}
+
+.div-proyectoss {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.main-servicios {
+  margin: 30px;
+  overflow: hidden;
+}
+.main-servicios .Herramientas-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 768px) and (min-width: 320px) {
   #div_inicio {
     display: grid;
@@ -319,7 +295,6 @@ footer .-content {
     margin: 10px;
   }
 }
-/* Movil */
 @media screen and (max-width: 768px) and (min-width: 320px) {
   #sobre_mi {
     display: grid;
@@ -355,6 +330,81 @@ footer .-content {
   }
   #sobre- {
     display: none;
+  }
+}
+@keyframes rubberBand {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scaleX(1.25) scaleY(0.75);
+  }
+  40% {
+    transform: scaleX(0.75) scaleY(1.25);
+  }
+  50% {
+    transform: scale(1);
+  }
+  65% {
+    transform: scale(0.95);
+  }
+  75% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.h_inicio {
+  animation: h_inicio 2s linear infinite;
+}
+@keyframes h_inicio {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Definir la animación de pulso */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.logo {
+  animation: pulse 4s infinite; /* Duración de 2 segundos, repetición infinita */
+}
+
+.span1 {
+  display: block;
+  font-family: "Mooli", sans-serif;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 23ch;
+  color: yellow;
+  animation: typing 6s steps(21), blink 0.7s infinite step-end alternate;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0;
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
   }
 }
 

@@ -1,0 +1,37 @@
+.btn {
+  background-color: black;
+  border: 0.2px solid white;
+}
+
+.btn:hover {
+  background: rgb(223, 85, 0);
+  background: linear-gradient(
+    252deg,
+    rgba(223, 85, 0, 1) 0%,
+    rgba(183, 183, 0, 1) 100%
+  );
+}
+.whatsapp-button img {
+  animation: rubberBand 2s infinite;
+}
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+
+  img {
+    width: 53px;
+    height: 53px;
+    border-radius: 30%;
+    padding: 8px;
+
+    :hover {
+      background-color: #128c7e;
+    }
+  }
+}
+
+.d-grid {
+  padding-top: 5px;
+}
