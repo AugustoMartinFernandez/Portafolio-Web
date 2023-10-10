@@ -82,6 +82,16 @@ footer .-content {
   margin-top: 10px;
 }
 
+.main-servicios {
+  margin: 30px;
+  overflow: hidden;
+}
+.main-servicios .Herramientas-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .accordion-button:not(.collapsed) {
   color: white;
   background-color: black;
@@ -95,16 +105,6 @@ footer .-content {
 .accordion-item .a-index {
   text-decoration: none;
   color: #fd1d1d;
-}
-
-.main-servicios {
-  margin: 30px;
-  overflow: hidden;
-}
-.main-servicios .Herramientas-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 h1 {
