@@ -1,16 +1,10 @@
 .card {
   background: $color-fondo-card-primario;
-  background: $color-fondo-card-secundario;
   box-shadow: $color-sombra-card;
   color: $color-texto-card;
-  border:  $color-borde-card;
+
 
   .card-img-top {
     margin-bottom: 3px;
-    padding: 8px;
   }
-}
-
-.card:hover {
-  border: $color-borde-hover-card;
 }

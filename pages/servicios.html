@@ -27,12 +27,14 @@
   <title>Servicios de Desarrollo Web - Martin Fernández</title>
 </head>
 
+<!-- BODY SERVICIOS -->
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg ">
+    <!-- BARRA DE NAVEGACION SERVICIOS -->
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
-          <img class="logo" src="../images/logodw.png" alt="Bootstrap" width="90" height="80">
+          <img class="logo" src="../images/logodw.png" alt="Bootstrap" width="90" height="80" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,13 +42,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <div class="navbar-nav">
-              <a class="nav-link" href="../index.html">Inicio</a>
-              <a class="nav-link" href="./proyectos.html">Proyectos</a>
-              <a class="nav-link" href="./sobremi.html">Sobre MI</a>
-              <a class="nav-link" href="./contacto.html">Contacto</a>
-              <a class="nav-link" href="./servicios.html">Servicios</a>
-            </div>
+            <ul class="navbar-nav">
+              <li><a class="nav-link" href="../index.html">Inicio</a></li>
+              <li>
+                <a class="nav-link" href="./proyectos.html">Proyectos</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./sobremi.html">Sobre MI</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./servicios.html">Servicios</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -56,10 +66,12 @@
   <div>
     <h1 class="animate__animated animate__bounceInUp" style="text-align: center; margin-top: 10px;">Servicios</h1>
   </div>
-
+  <!-- MAIN SERVICIOS -->
   <main class="main-servicios">
+    <!-- DIV CARDS -->
     <div class="row row-cols-1 row-cols-sm-12 row-cols-md-12 row-cols-lg-2 row-cols-xl-4 row-cols-xxl-4 g-3"
-      style="margin-bottom: 10px; width: auto;">
+      style=" width: auto;">
+      <!-- COLUMNA -->
       <div class="col">
         <div class="card" data-aos="zoom-in-down">
           <div class="card-body">
@@ -74,8 +86,8 @@
             </ul>
             <h3 class="card-subtitle">Herramientas</h3>
             <div class="Herramientas-img">
-              <img src="../images/vsc.png" alt="" style="width: 100px;">
-              <img src="../images/git.png" alt="" style="width: 100px;">
+              <img src="../images/vsc.png" alt="logo visual studio code" style="width: 100px;">
+              <img src="../images/git.png" alt="logo git" style="width: 100px;">
             </div>
             <div class="d-grid gap-2">
               <a href="./contacto.html" class="btn btn-primary" role="button">Contactame</a>
@@ -83,53 +95,7 @@
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card" data-aos="zoom-in-left">
-          <div class="card-body">
-            <h2 class="card-title">Gestión de Proyectos</h2>
-            <h2 class="card-title">Git y GitHub</h2>
-            <ul>
-              <li>Control de Versiones</li>
-              <li>Ramificación y Fusiones</li>
-              <li>Colaboración en Equipo</li>
-              <li>Resolución de Conflictos</li>
-              <li>Automatización de Despliegues</li>
-            </ul>
-            <h3 class="card-subtitle">Herramientas</h3>
-            <div class="Herramientas-img">
-              <img src="../images/git.png" alt="" style="width: 100px;">
-              <img src="../images/github.png" alt="" style="width: 100px;">
-            </div>
-            <div class="d-grid gap-2">
-              <a href="./contacto.html" class="btn btn-primary" role="button">Contactame</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card" data-aos="zoom-in-right">
-          <div class="card-body">
-            <h2 class="card-title">Desarrollador Web</h2>
-            <h2 class="card-title"> Desarrollo web frontend.</h2>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Bootstrap</li>
-              <li>SASS</li>
-              <li>Git y GitHub</li>
-            </ul>
-            <h3 class="card-subtitle">Herramientas</h3>
-            <div class="Herramientas-img">
-              <img src="../images/html.png" alt="" style="width: 100px;">
-              <img src="../images/css.png" alt="" style="width: 100px;">
-              <img src="../images/bootstrap.png" alt="" style="width: 100px;">
-            </div>
-            <div class="d-grid gap-2">
-              <a href="./contacto.html" class="btn btn-primary" role="button">Contactame</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!-- COLUMANA -->
       <div class="col">
         <div class="card" data-aos="flip-right">
           <div class="card-body">
@@ -144,9 +110,58 @@
             </ul>
             <h3 class="card-subtitle">Herramientas</h3>
             <div class="Herramientas-img">
-              <img src="../images/html.png" alt="" style="width: 100px;">
-              <img src="../images/css.png" alt="" style="width: 100px;">
-              <img src="../images/bootstrap.png" alt="" style="width: 100px;">
+              <img src="../images/html.png" alt="logo html" style="width: 100px;">
+              <img src="../images/css.png" alt="logo css" style="width: 100px;">
+              <img src="../images/bootstrap.png" alt="logo bootstrap" style="width: 100px;">
+            </div>
+            <div class="d-grid gap-2">
+              <a href="./contacto.html" class="btn btn-primary" role="button">Contactame</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLUMNA -->
+      <div class="col">
+        <div class="card" data-aos="zoom-in-down">
+          <div class="card-body">
+            <h2 class="card-title">Servicios de</h2>
+            <h2 class="card-title">Mantenimiento de Sitios Web</h2>
+            <ul>
+              <li>Actualización de Contenido</li>
+              <li>Corrección de Errores</li>
+              <li>Optimización de Rendimiento</li>
+              <li>Seguridad y Copias de Seguridad</li>
+              <li>Soporte Técnico</li>
+            </ul>
+            <h3 class="card-subtitle">Herramientas</h3>
+            <div class="Herramientas-img">
+              <img src="../images/vsc.png" alt="logo visual studio code" style="width: 100px;">
+              <img src="../images/git.png" alt="logo git" style="width: 100px;">
+            </div>
+            <div class="d-grid gap-2">
+              <a href="./contacto.html" class="btn btn-primary" role="button">Contactame</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- COLUMNA -->
+      <div class="col">
+        <div class="card" data-aos="flip-right">
+          <div class="card-body">
+            <h2 class="card-title">Desarrollador Web</h2>
+            <h2 class="card-title"> Desarrollo web frontend.</h2>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Bootstrap</li>
+              <li>SASS</li>
+              <li>Git y GitHub</li>
+            </ul>
+            <h3 class="card-subtitle">Herramientas</h3>
+            <div class="Herramientas-img">
+              <img src="../images/html.png" alt="logo html" style="width: 100px;">
+              <img src="../images/css.png" alt="logo css" style="width: 100px;">
+              <img src="../images/bootstrap.png" alt="logo bootstrap" style="width: 100px;">
             </div>
             <div class="d-grid gap-2">
               <a href="./contacto.html" class="btn btn-primary" role="button">Contactame</a>
@@ -157,7 +172,7 @@
   </main>
 
 
-
+  <!-- FOOTER SRVICIOS -->
   <footer>
     <div class="social-links">
       <a href="https://www.instagram.com/martinn_fernandeez" target="_blank">
@@ -177,13 +192,14 @@
     </div>
     <p class="p-footer">&copy; 2023 Mi Portafolio | Todos los derechos reservados</p>
   </footer>
+  <!-- SCRIPT -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>

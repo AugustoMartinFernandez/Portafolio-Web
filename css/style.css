@@ -1,14 +1,11 @@
 @charset "UTF-8";
 body {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9845473346) 44%, rgb(3, 28, 13) 63%, rgb(5, 43, 20) 78%, rgb(5, 47, 22) 84%, rgb(6, 56, 27) 96%, rgb(13, 121, 58) 100%);
+  background: #f5f5f5;
   font-family: "Mooli", sans-serif;
-  max-height: max-content;
 }
 
 .body-sobremi {
-  background: rgb(0, 133, 130);
-  background: linear-gradient(0deg, rgb(0, 133, 130) 3%, rgb(3, 102, 98) 7%, rgb(8, 51, 47) 28%, rgb(10, 27, 23) 43%, rgb(11, 19, 15) 56%, rgb(11, 17, 13) 82%);
+  background: #f5f5f5;
 }
 
 * {
@@ -19,7 +16,7 @@ body {
 h1 {
   font-size: 2.7rem;
   font-weight: 700;
-  color: white;
+  color: black;
 }
 
 h2,
@@ -28,15 +25,14 @@ h4,
 h5,
 h6,
 p {
-  color: #eaeaea;
+  color: black;
 }
 
 nav {
   background-color: black;
 }
 nav .navbar-toggler {
-  background: rgb(25, 7, 246);
-  background: linear-gradient(90deg, rgb(25, 7, 246) 39%, rgb(11, 17, 13) 98%);
+  background: white;
 }
 
 .navbar-nav {
@@ -80,6 +76,7 @@ footer .-content {
 
 .p-footer {
   margin-top: 10px;
+  color: whitesmoke;
 }
 
 .main-servicios {
@@ -94,41 +91,29 @@ footer .-content {
 
 .accordion-button:not(.collapsed) {
   color: white;
-  background-color: black;
+  background-color: white;
 }
 
 .accordion-item {
-  background: rgb(10, 0, 0);
-  background: linear-gradient(0deg, rgb(10, 0, 0) 30%, rgb(13, 32, 12) 52%, rgb(15, 47, 13) 65%, rgb(17, 65, 14) 72%, rgb(18, 80, 15) 77%, rgb(23, 126, 18) 100%);
-  color: white;
+  background: #ccc;
+  color: black;
 }
 .accordion-item .a-index {
   text-decoration: none;
   color: #fd1d1d;
 }
 
+.accordion-button:not(.collapsed) {
+  color: black;
+}
+
 h1 {
   font-size: 2.7rem;
   font-weight: 700;
-  color: white;
+  color: black;
 }
 
-.card {
-  background: #3498db;
-  background: #2980b9;
-  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.4);
-  color: #ffffff;
-  border: 2px solid #000;
-}
-.card .card-img-top {
-  margin-bottom: 3px;
-  padding: 8px;
-}
-.card:hover {
-  border: 2px solid #34e89e;
-}
-
-.div-proyectoss {
+.main-proyectoss {
   display: flex;
   flex-direction: row;
   padding: 20px;
@@ -141,8 +126,7 @@ h1 {
   justify-content: center;
 }
 .containerform form {
-  background: rgb(0, 133, 130);
-  background: linear-gradient(0deg, rgb(0, 133, 130) 3%, rgb(3, 102, 98) 7%, rgb(8, 51, 47) 28%, rgb(10, 27, 23) 43%, rgb(11, 19, 15) 56%, rgb(11, 17, 13) 82%);
+  background: black;
   color: #e8e8e8;
   height: 480px;
   width: 500px;
@@ -156,29 +140,22 @@ h1 {
 }
 
 .card {
-  background: rgb(15, 52, 67);
-  background: linear-gradient(180deg, rgb(15, 52, 67) 0%, rgb(15, 52, 67) 59%, rgb(19, 73, 77) 75%, rgb(25, 102, 92) 83%, rgb(52, 232, 158) 99%);
-  box-shadow: rgba(6, 24, 44, 0.4);
-  color: #e8e8e8;
-  border: 2px solid black;
+  background: #ccc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: black;
 }
 .card .card-img-top {
   margin-bottom: 3px;
-  padding: 8px;
-}
-
-.card:hover {
-  border: 2px solid #34e89e;
 }
 
 .btn {
-  background-color: black;
+  background-color: #eece1a;
   border: white;
+  width: 310px;
 }
 
 .btn:hover {
-  background: rgb(223, 85, 0);
-  background: linear-gradient(252deg, rgb(223, 85, 0) 0%, rgb(183, 183, 0) 100%);
+  background: black;
 }
 
 .whatsapp-button img {
@@ -203,6 +180,8 @@ h1 {
 
 .d-grid {
   padding-top: 8px;
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes rubberBand {
@@ -266,7 +245,7 @@ h1 {
   white-space: nowrap;
   border-right: 4px solid;
   width: 23ch;
-  color: yellow;
+  color: #EECE1A;
   animation: typing 6s steps(21), blink 0.7s infinite step-end alternate;
   overflow: hidden;
 }
@@ -286,15 +265,16 @@ h1 {
   display: grid;
   grid-template-areas: "section main";
   grid-template-columns: 1fr 1fr;
-  height: auto;
+  min-height: 80vh;
 }
 
 .section-inicio {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .main-inicio {
@@ -320,7 +300,7 @@ h1 {
   grid-template-columns: 0.6fr 1.5fr;
   grid-template-rows: 1fr;
   column-gap: 10px;
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 .h1-sobre {
@@ -329,6 +309,7 @@ h1 {
 
 .container-main {
   display: flex;
+  min-height: 100vh;
 }
 
 .d-grid {
@@ -342,6 +323,7 @@ h1 {
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-top: 100px;
+  margin-right: 100px;
 }
 
 .div-btn-sobre {
@@ -369,6 +351,10 @@ h1 {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
   }
   .main-inicio {
     display: flex;
@@ -415,8 +401,6 @@ h1 {
   }
   .main_sobre {
     display: flex;
-    background: rgb(0, 133, 130);
-    background: linear-gradient(0deg, rgb(0, 133, 130) 3%, rgb(3, 102, 98) 7%, rgb(8, 51, 47) 28%, rgb(10, 27, 23) 43%, rgb(11, 19, 15) 56%, rgb(11, 17, 13) 82%);
   }
   .container-main {
     display: none;

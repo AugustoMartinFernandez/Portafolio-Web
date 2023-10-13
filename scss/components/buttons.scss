@@ -1,11 +1,11 @@
 .btn {
   background-color: $color-btn-fondo;
   border: $color-btn-borde;
+  width: 310px;
 }
 
 .btn:hover {
   background: $color-btn-hover-fondo-primario;
-  background: $color-btn-hover-fondo-secundario;
 }
 
 .whatsapp-button img {
@@ -32,4 +32,6 @@
 
 .d-grid {
   padding-top: 8px;
+  display: flex;
+  justify-content: center;
 }

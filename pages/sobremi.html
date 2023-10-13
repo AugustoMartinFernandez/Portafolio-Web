@@ -29,10 +29,10 @@
 
   <div id="sobre_mi">
     <header>
-      <nav class="navbar navbar-expand-lg " style="  font-family: 'Mooli', sans-serif; font-size: 2.5 rem;">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">
-            <img class="logo" src="../images/logodw.png" alt="Bootstrap" width="90" height="80">
+            <img class="logo" src="../images/logodw.png" alt="Bootstrap" width="90" height="80" />
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,13 +40,21 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-              <div class="navbar-nav">
-                <a class="nav-link" href="../index.html">Inicio</a>
-                <a class="nav-link" href="./proyectos.html">Proyectos</a>
-                <a class="nav-link" href="./sobremi.html">Sobre MI</a>
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-                <a class="nav-link" href="./servicios.html">Servicios</a>
-              </div>
+              <ul class="navbar-nav">
+                <li><a class="nav-link" href="../index.html">Inicio</a></li>
+                <li>
+                  <a class="nav-link" href="./proyectos.html">Proyectos</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="./sobremi.html">Sobre MI</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="./servicios.html">Servicios</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -59,7 +67,8 @@
       </div>
       <div class="row g-0  position-relative">
         <div class="col-md-6 mb-md-0 p-md-4">
-          <img src="../images/fotosobremi-PhotoRoom.png-PhotoRoom.png" class="w-100" alt="Fotografía de Martin Fernández, desarrollador web">
+          <img src="../images/fotosobremi-PhotoRoom.png-PhotoRoom.png" class="w-100"
+            alt="Fotografía de Martin Fernández, desarrollador web">
         </div>
         <div class="col-md-6 p-4 ps-md-0">
           <p>👋🏻¡Hola! ¿Estás buscando crear tu propia página web, o quizás queres desarrollar una aplicación?</p>
@@ -90,13 +99,17 @@
       </div>
     </main>
 
+    <!-- GRID VISTA DESTOK -->
     <div id="sobre-">
+      <!-- MAIN VISTA DESTOK -->
       <main class="container-main">
         <div class="div-img">
           <img src="../images/miedit.png" alt="Fotografía de Martin Fernández, desarrollador web"
-            style="height: 100vh; width: 40vw; border-radius: 100px;">
+            style="height: 100vh; width: 40vw;">
         </div>
       </main>
+
+      <!-- ASIDE VISTA DESTOK -->
       <aside class="aside-sobre">
         <h2>Sobre Mi</h2>
         <p> Soy Martin, un apasionado desarrollador web con experiencia en HTML, CSS, Bootstrap, Git y SASS. Estoy en
@@ -107,6 +120,8 @@
           colaborador dedicado
           que eleve tus ideas, ¡estoy aquí para ayudarte! Contáctame para discutir proyectos o preguntas. Espero
           trabajar contigo y ayudarte a alcanzar tus objetivos en línea.</p> <br>
+
+        <!-- DIV VISTA DESTOK BOTTOM -->
         <div class="d-btn-sobre">
           <div class="d-grid gap-2  boton" style="width: 270px; ">
             <a href="./proyectos.html" class="btn btn-primary" role="button"
@@ -126,9 +141,9 @@
           </a>
         </div>
       </aside>
-
     </div>
 
+    <!-- FOOTER -->
     <footer>
       <div class="social-links">
         <a href="https://www.instagram.com/martinn_fernandeez" target="_blank">
@@ -148,11 +163,11 @@
       <p class="p-footer">&copy; 2023 Mi Portafolio | Todos los derechos reservados</p>
     </footer>
   </div>
-  </div>
+  <!-- SCRIPT -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>

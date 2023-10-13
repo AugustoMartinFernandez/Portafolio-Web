@@ -5,11 +5,13 @@
 
 .accordion-item {
   background: $color-accordion-item-fondo-primario;
-  background: $color-accordion-item-fondo-secundario;
   color: $color-accordion-item-texto;
 
   .a-index {
     text-decoration: none;
     color: $color-a-index-texto;
   }
+}
+.accordion-button:not(.collapsed) {
+  color: black;
 }

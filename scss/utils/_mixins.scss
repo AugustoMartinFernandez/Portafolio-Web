@@ -8,37 +8,4 @@
 h1 {
   @include estilo-h1;
 }
-// Mixin card
-@mixin card-estilo(
-  $color-fondo-card-primario,
-  $color-fondo-card-secundario,
-  $color-sombra-card,
-  $color-texto-card,
-  $color-borde-card,
-  $color-borde-hover-card
-) {
-  .card {
-    background: $color-fondo-card-primario;
-    background: $color-fondo-card-secundario;
-    box-shadow: $color-sombra-card;
-    color: $color-texto-card;
-    border: $color-borde-card;
 
-    .card-img-top {
-      margin-bottom: 3px;
-      padding: 8px;
-    }
-
-    &:hover {
-      border: $color-borde-hover-card;
-    }
-  }
-}
-@include card-estilo(
-  #3498db,
-  #2980b9,
-  0px 4px 6px -1px rgba(0, 0, 0, 0.4),
-  #ffffff,
-  2px solid #000,
-  2px solid #34e89e
-);
