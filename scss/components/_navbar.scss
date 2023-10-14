@@ -17,5 +17,11 @@ nav {
 // LINK DE NAVEGADOR
   .nav-link {
     color: $color-texto-enlaces-nav;
+    transition: color 0.5s; /* Agrega una transición de color suave */
   }
+  .navbar-nav .nav-link:hover {
+    color: yellow; /* Cambia el color del texto en el hover */
+  }
+
+
 }

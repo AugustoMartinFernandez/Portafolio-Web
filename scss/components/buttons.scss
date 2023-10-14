@@ -3,6 +3,8 @@
   background-color: $color-btn-fondo;
   border: $color-btn-borde;
   width: 250px;
+  transition: background-color 0.2s; 
+  cursor: pointer;
 }
 // CURSOR BOTON
 .btn:hover {

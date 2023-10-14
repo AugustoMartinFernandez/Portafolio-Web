@@ -49,6 +49,10 @@ nav .navbar-toggler {
 }
 .navbar-nav .nav-link {
   color: white;
+  transition: color 0.5s; /* Agrega una transición de color suave */
+}
+.navbar-nav .navbar-nav .nav-link:hover {
+  color: yellow; /* Cambia el color del texto en el hover */
 }
 
 /* footer */
@@ -171,6 +175,8 @@ h1 {
   background-color: #eece1a;
   border: white;
   width: 250px;
+  transition: background-color 0.2s;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -371,7 +377,6 @@ h1 {
   }
   .section2-inicio {
     display: block;
-    margin-bottom: 12px;
   }
   #grid-inicio {
     display: none;
