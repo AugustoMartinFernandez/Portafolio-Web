@@ -29,7 +29,7 @@ p {
 }
 
 .p- {
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.2rem;
 }
 
 nav {
@@ -92,6 +92,7 @@ footer .-content {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 18px;
 }
 
 .main-contacto {
@@ -145,22 +146,22 @@ h1 {
   justify-content: center;
 }
 .containerform form {
-  background: black;
-  color: #e8e8e8;
-  height: 480px;
-  width: 500px;
+  background: #c5c7c9;
+  color: black;
+  height: 530px;
+  width: 600px;
   padding: 20px;
   border-radius: 17px;
   margin: 10px;
   margin-bottom: 30px;
 }
 .containerform form .form-control {
-  background-color: #c5c7c9;
+  background-color: #f5f5f5;
 }
 
 .card {
   background: #ccc;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   color: black;
 }
 .card .card-img-top {
@@ -298,9 +299,7 @@ h1 {
 .main-inicio {
   display: flex;
   align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-right: 60px;
+  padding-right: 40px;
 }
 
 .section2-inicio {
@@ -373,12 +372,10 @@ h1 {
   .main-inicio {
     display: flex;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 30px;
   }
   .section2-inicio {
     display: block;
+    margin-bottom: 12px;
   }
   #grid-inicio {
     display: none;
@@ -394,7 +391,9 @@ h1 {
   }
   .mainn-inicio {
     display: flex;
-    margin: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
 }
 #sobre_mi {
@@ -413,6 +412,7 @@ h1 {
 
 .main_sobre {
   display: flex;
+  min-height: 100vh;
 }
 
 .d-grid {

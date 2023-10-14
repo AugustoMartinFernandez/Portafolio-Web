@@ -22,18 +22,16 @@
   ul {
     display: flex;
     flex-direction: column;
-}
+  }
 
   .main-inicio {
     display: flex;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 30px;
   }
 
   .section2-inicio {
     display: block;
+    margin-bottom: 12px;
   }
 
   #grid-inicio {
@@ -53,34 +51,35 @@
 
   .mainn-inicio {
     display: flex;
-    margin: 15px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
   }
 }
 
-  #sobre_mi {
-    display: grid;
-    grid-template-areas:
-      "nav"
-      "main"
-      "footer";
-    grid-template-columns: 1fr;
-    grid-template-rows: 1.5fr;
-    min-height: 100vh;
-  }
+#sobre_mi {
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.5fr;
+  min-height: 100vh;
+}
 
-  .div-botones {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.div-botones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .main_sobre {
-    display: flex;
-  }
+.main_sobre {
+  display: flex;
+  min-height: 100vh;
+}
 
-
-  .d-grid {
-    display: flex;
-  }
-
- 
+.d-grid {
+  display: flex;
+}
