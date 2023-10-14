@@ -8,6 +8,7 @@
     content="Soy Martin, un apasionado desarrollador web con experiencia en HTML, CSS, Bootstrap y más. Estoy aquí para ayudarte a crear sitios web hermosos y funcionales. ¡Conóceme mejor!" />
   <meta name="keywords"
     content="desarrollador web, HTML, CSS, Bootstrap, Git, SASS, JavaScript, proyectos web, sitios web, desarrollo web freelance, Martin Fernández" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,143 +27,121 @@
 </head>
 
 <body class="body-sobremi">
-
-  <div id="sobre_mi">
-    <header>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">
-            <img class="logo" src="../images/logodw.png" alt="logo" width="80" height="50"  />
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <ul class="navbar-nav">
-                <li><a class="nav-link" href="../index.html">Inicio</a></li>
-                <li>
-                  <a class="nav-link" href="./proyectos.html">Proyectos</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="./sobremi.html">Sobre MI</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="./contacto.html">Contacto</a>
-                </li>
-                <li>
-                  <a class="nav-link" href="./servicios.html">Servicios</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <main class="main_sobre">
-      <div>
-        <h1 class="h1-sobre" style="text-align: center; margin-top: 10px;">Sobre Mi</h1>
-      </div>
-      <div class="row g-0  position-relative">
-        <div class="col-md-6 mb-md-0 p-md-4">
-          <img src="../images/fotosobremi-PhotoRoom.png-PhotoRoom.png" class="w-100"
-            alt="Fotografía de Martin Fernández, desarrollador web">
-        </div>
-        <div class="col-md-6 p-4 ps-md-0">
-          <p>👋🏻¡Hola! ¿Estás buscando crear tu propia página web, o quizás queres desarrollar una aplicación?</p>
-
-          <p> Soy Martin, un apasionado desarrollador web con experiencia en HTML, CSS, Bootstrap, Git y SASS. Estoy en
-            constante evolución y actualmente estoy estudiando JavaScript. Mi enfoque se centra en crear sitios web
-            hermosos, funcionales y centrados en el usuario. Creo que la interacción dinámica es clave para el éxito en
-            línea.¡Estoy aquí para ayudarte! Contáctame para discutir proyectos o preguntas. Espero
-            trabajar contigo y ayudarte a alcanzar tus objetivos en línea.</p> <br>
-          <div class="div-botones">
-            <div class="d-grid gap-2  boton" style="width: 270px; ">
-              <a href="./proyectos.html" class="btn btn-primary" role="button"
-                style="background-color: black; border: 0.5px solid white;">Mis
-                Proyectos</a>
-            </div>
-            <div class="d-grid gap-  boton" style="width: 270px; padding-top: 10px;">
-              <a href="./proyectos.html" class="btn btn-primary" role="button"
-                style="background-color: gold; border: 0.5px solid white;">Ver
-                Linkedin</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="whatsapp-button">
-        <a href="https://wa.me/3815949243" target="_blank">
-          <img src="../images/whatsapp.png" alt="WhatsApp">
+<!-- HEADER -->
+  <header>
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img class="logo" src="../images/logodw.png" alt="logo" width="80" height="50" />
         </a>
-      </div>
-    </main>
-
-    <!-- GRID VISTA DESTOK -->
-    <div id="sobre-">
-      <!-- MAIN VISTA DESTOK -->
-      <main class="container-main">
-        <div class="div-img">
-          <img src="../images/miedit.png" alt="Fotografía de Martin Fernández, desarrollador web"
-            style="height: 100vh; width: 40vw;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <ul class="navbar-nav">
+              <li><a class="nav-link" href="../index.html">Inicio</a></li>
+              <li>
+                <a class="nav-link" href="./proyectos.html">Proyectos</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./sobremi.html">Sobre MI</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+              <li>
+                <a class="nav-link" href="./servicios.html">Servicios</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </main>
-
-      <!-- ASIDE VISTA DESTOK -->
-      <aside class="aside-sobre">
-        <h2>Sobre Mi</h2>
-        <p> Soy Martin, un apasionado desarrollador web con experiencia en HTML, CSS, Bootstrap, Git y SASS. Estoy en
+      </div>
+    </nav>
+  </header>
+<!-- MAIN -->
+  <main class="main_sobre">
+    <!-- DIV  IMG-->
+    <div class="row g-0  position-relative">
+      <div class="col-md-6 mb-md-0 p-md-4">
+        <img src="../images/fotosobremi-PhotoRoom.png-PhotoRoom.png" class="w-100"
+          alt="Fotografía de Martin Fernández, desarrollador web">
+      </div>
+      <!-- DIV TEXTO -->
+      <div class="col-md-6 p-4 ps-md-0 sobremi">
+        <div>
+          <h1 class=" animate__animated animate__rubberBand " style="text-align: center;  margin-bottom: 25px;">
+            Sobre Mi
+          </h1>
+        </div>
+        <!-- P TEXTO -->
+        <p class="p-">👋🏻¡Hola! ¿Estás buscando crear tu propia página web, o quizás queres desarrollar una aplicación?
+        </p>
+        <p class="p-"> Soy Martin, un apasionado desarrollador web con experiencia en HTML, CSS, Bootstrap, Git y SASS.
+          Estoy en
           constante evolución y actualmente estoy estudiando JavaScript. Mi enfoque se centra en crear sitios web
           hermosos, funcionales y centrados en el usuario. Creo que la interacción dinámica es clave para el éxito en
-          línea.</p>
-        <p> Mi objetivo es superar tus expectativas y establecer relaciones sólidas con mis clientes.Si buscas un
-          colaborador dedicado
-          que eleve tus ideas, ¡estoy aquí para ayudarte! Contáctame para discutir proyectos o preguntas. Espero
-          trabajar contigo y ayudarte a alcanzar tus objetivos en línea.</p> <br>
-
-        <!-- DIV VISTA DESTOK BOTTOM -->
-        <div class="d-btn-sobre">
+          línea.¡Estoy aquí para ayudarte! Contáctame para discutir proyectos o preguntas. Espero
+          trabajar contigo y ayudarte a alcanzar tus objetivos en línea.</p>
+        <p class="p-">🌍 En un mundo cada vez más digital, es fundamental contar con una presencia en línea sólida. Ya
+          sea que
+          tengas una pequeña empresa, una startup o una idea innovadora, puedo ayudarte a convertir tus conceptos en
+          realidad digital.</p>
+        <p class="p-">💡 Me encanta mantenerme actualizado sobre las últimas tendencias y tecnologías web, lo que me
+          permite
+          ofrecer soluciones innovadoras y efectivas. Siempre estoy en búsqueda de nuevos desafíos y oportunidades
+          emocionantes para aprender y crecer.</p>
+        <p class="p-">💌 No dudes en ponerte en contacto conmigo para hablar sobre tu próximo proyecto, discutir tus
+          ideas o
+          simplemente para tomar un café virtual y conocernos mejor. Estoy aquí para ayudarte a llevar tu presencia en
+          línea al siguiente nivel.</p>
+          <!-- BOTONES -->
+        <div class="div-botones" style="margin-top: 40px;">
           <div class="d-grid gap-2  boton" style="width: 270px; ">
             <a href="./proyectos.html" class="btn btn-primary" role="button"
               style="background-color: black; border: 0.5px solid white;">Mis
               Proyectos</a>
           </div>
           <div class="d-grid gap-  boton" style="width: 270px; padding-top: 10px;">
-            <a href="https://www.linkedin.com/in/mart%C3%ADn-fern%C3%A1ndez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              target="_blank" class="btn btn-primary" role="button"
+            <a href="./proyectos.html" class="btn btn-primary" role="button"
               style="background-color: gold; border: 0.5px solid white;">Ver
               Linkedin</a>
           </div>
         </div>
-        <div class="whatsapp-button">
-          <a href="https://wa.me/3815949243" target="_blank">
-            <img src="../images/whatsapp.png" alt="WhatsApp">
-          </a>
-        </div>
-      </aside>
-    </div>
-
-    <!-- FOOTER -->
-    <footer>
-      <div class="social-links">
-        <a href="https://www.instagram.com/martinn_fernandeez" target="_blank">
-          <img src="../images/instagram.png" alt="Instagram" class="social-icon" />
-        </a>
-        <a href="https://www.facebook.com/Martín Fernández" target="_blank">
-          <img src="../images/facebook.png" alt="Facebook" class="social-icon" />
-        </a>
-        <a href="https://wa.me/3815949243" target="_blank">
-          <img src="../images/whatsapp.png" alt="WhatsApp" class="social-icon" />
-        </a>
-        <a href="https://www.linkedin.com/in/mart%C3%ADn-fern%C3%A1ndez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          target="_blank">
-          <img src="../images/linkedin.png" alt="TikTok" class="social-icon" />
-        </a>
       </div>
-      <p class="p-footer">&copy; 2023 Mi Portafolio | Todos los derechos reservados</p>
-    </footer>
-  </div>
+    </div>
+    <!-- BOTON FLOTANTE WhatsApp -->
+    <div class="whatsapp-button">
+      <a href="https://wa.me/3815949243" target="_blank">
+        <img src="../images/whatsapp.png" alt="WhatsApp">
+      </a>
+    </div>
+  </main>
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="social-links">
+      <a href="https://www.instagram.com/martinn_fernandeez" target="_blank">
+        <img src="../images/instagram.png" alt="Instagram" class="social-icon" />
+      </a>
+      <a href="https://www.facebook.com/Martín Fernández" target="_blank">
+        <img src="../images/facebook.png" alt="Facebook" class="social-icon" />
+      </a>
+      <a href="https://wa.me/3815949243" target="_blank">
+        <img src="../images/whatsapp.png" alt="WhatsApp" class="social-icon" />
+      </a>
+      <a href="https://www.linkedin.com/in/mart%C3%ADn-fern%C3%A1ndez?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        target="_blank">
+        <img src="../images/linkedin.png" alt="TikTok" class="social-icon" />
+      </a>
+    </div>
+    <p class="p-footer">&copy; 2023 Mi Portafolio | Todos los derechos reservados</p>
+  </footer>
+
   <!-- SCRIPT -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"

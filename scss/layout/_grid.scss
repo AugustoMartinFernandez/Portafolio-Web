@@ -3,7 +3,7 @@
   display: grid;
   grid-template-areas: "section main";
   grid-template-columns: 1fr 1fr;
-  min-height: 80vh;
+  min-height: 100vh;
 }
 
 .section-inicio {
@@ -18,8 +18,8 @@
 .main-inicio {
   display: flex;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-right: 60px;
 }
 
@@ -43,9 +43,6 @@
   min-height: 100vh;
 }
 
-.h1-sobre {
-  display: none;
-}
 
 .container-main {
   display: flex;
