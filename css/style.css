@@ -63,7 +63,6 @@ footer .-content {
   margin: 0 auto;
 }
 
-/* iconos del footer  */
 .social-links {
   margin-top: 10px;
   text-decoration: none;
@@ -194,9 +193,6 @@ h1 {
   border-radius: 30%;
   padding: 8px;
 }
-.whatsapp-button img :hover {
-  background-color: #128c7e;
-}
 
 .d-grid {
   display: flex;
@@ -241,7 +237,6 @@ h1 {
   }
 }
 
-/* Definir la animación de pulso */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -254,7 +249,8 @@ h1 {
   }
 }
 .logo {
-  animation: pulse 4s infinite; /* Duración de 2 segundos, repetición infinita */
+  animation: pulse 4s infinite;
+  /* Duración de 2 segundos, repetición infinita */
 }
 
 .span1 {

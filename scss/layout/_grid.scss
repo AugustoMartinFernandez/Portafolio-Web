@@ -5,7 +5,7 @@
   grid-template-columns: 1fr 1fr;
   min-height: 100vh;
 }
-
+// SECCION INICIO
 .section-inicio {
   display: flex;
   flex-direction: column;
@@ -14,13 +14,13 @@
   align-items: center;
   flex-wrap: wrap;
 }
-
+// MAIN INICIO
 .main-inicio {
   display: flex;
   align-items: center;
   padding-right: 40px;
 }
-
+// SECTION 2 INICIO
 .section2-inicio {
   display: none;
 }
@@ -41,7 +41,7 @@
   min-height: 100vh;
 }
 
-
+// CONTENEDOR MAIN 
 .container-main {
   display: flex;
   min-height: 100vh;
@@ -50,7 +50,7 @@
 .d-grid {
   display: flex;
 }
-
+// ASIDE SOBRE
 .aside-sobre {
   display: flex;
   flex-direction: column;
@@ -60,15 +60,15 @@
   margin-top: 100px;
   margin-right: 100px;
 }
-
+// BOTONES SOBRE MI
 .div-btn-sobre {
   margin-top: 50px;
 }
-
+// TEXTO P 
 .texto-p {
   font-size: large;
 }
-
+// MAIN SOBRE
 .main_sobre {
   display: none;
 }

@@ -1,17 +1,18 @@
+// BOTON
 .btn {
   background-color: $color-btn-fondo;
   border: $color-btn-borde;
   width: 250px;
 }
-
+// CURSOR BOTON
 .btn:hover {
   background: $color-btn-hover-fondo-primario;
 }
-
+// BOTON DE whatsapp IMG
 .whatsapp-button img {
   animation: rubberBand 2s infinite;
 }
-
+// BOTON WHATSAPP
 .whatsapp-button {
   position: fixed;
   bottom: 20px;
@@ -23,13 +24,9 @@
     height: 53px;
     border-radius: 30%;
     padding: 8px;
-
-    :hover {
-      background-color: $color-whatsapp-hover-fondo;
-    }
   }
 }
-
+// BOTON DE CARD
 .d-grid {
 
   display: flex;

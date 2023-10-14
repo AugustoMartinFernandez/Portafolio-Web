@@ -1,8 +1,9 @@
+// ACORDION DE INCIO VISTA MOVIL
 .accordion-button:not(.collapsed) {
   color: $color-accordion-button-texto;
   background-color: $color-accordion-button-fondo;
 }
-
+// HIJOS DEL ACORDION
 .accordion-item {
   background: $color-accordion-item-fondo-primario;
   color: $color-accordion-item-texto;
@@ -12,6 +13,7 @@
     color: $color-a-index-texto;
   }
 }
+// BOTON DEL ACORDION
 .accordion-button:not(.collapsed) {
   color: black;
 }

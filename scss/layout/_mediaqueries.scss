@@ -1,3 +1,4 @@
+// MEDIA QUERIS VISTA MOVIL INICIO Y SOBRE MI
 @media screen and (max-width: 768px) and (min-width: 320px) {
   #div_inicio {
     display: grid;
@@ -10,7 +11,7 @@
     grid-template-columns: 1fr;
     min-height: 100vh;
   }
-
+// SECCION
   .section-inicio {
     display: flex;
     flex-direction: column;
@@ -23,7 +24,7 @@
     display: flex;
     flex-direction: column;
   }
-
+// MAIN
   .main-inicio {
     display: flex;
     align-items: center;
@@ -57,7 +58,7 @@
 
   }
 }
-
+// VISTA MOVIL SOBRE MI
 #sobre_mi {
   display: grid;
   grid-template-areas:
