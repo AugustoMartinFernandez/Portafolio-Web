@@ -33,7 +33,7 @@ p {
 }
 
 nav {
-  background: url(../../images/nav.gif);
+  background: url(../.././images/nav.gif);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -115,7 +115,7 @@ footer .-content {
 }
 
 .alerta {
-  background-image: url(../../images/portada2.png);
+  background-image: url(../.././images/footer3.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
