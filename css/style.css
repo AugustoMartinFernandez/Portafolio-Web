@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 body {
   background: #f5f5f5;
   font-family: "Mooli", sans-serif;
@@ -32,7 +33,7 @@ p {
   margin-bottom: 0.2rem;
 }
 
-.navbar{
+.navbar {
   background: url(../images/nav.gif);
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,12 +52,16 @@ p {
   list-style: none;
   align-items: center;
 }
+
 .navbar-nav .nav-link {
   color: white;
-  transition: color 0.5s; /* Agrega una transición de color suave */
+  transition: color 0.5s;
+  /* Agrega una transición de color suave */
 }
+
 .navbar-nav .navbar-nav .nav-link:hover {
-  color: yellow; /* Cambia el color del texto en el hover */
+  color: yellow;
+  /* Cambia el color del texto en el hover */
 }
 
 /* footer */
@@ -66,6 +71,7 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
 footer .-content {
   max-width: 800px;
   margin: 0 auto;
@@ -75,9 +81,11 @@ footer .-content {
   margin-top: 10px;
   text-decoration: none;
 }
+
 .social-links a {
   text-decoration: none;
 }
+
 .social-links a .social-icon {
   width: 30px;
   height: 30px;
@@ -95,6 +103,7 @@ footer .-content {
   overflow: hidden;
   min-height: 100vh;
 }
+
 .main-servicios .Herramientas-img {
   display: flex;
   align-items: center;
@@ -116,10 +125,12 @@ footer .-content {
 }
 
 .alerta {
-  background: url(../images/portada2.png);
+  background: url(../images/portada2.webp);
+  overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
+  width: auto;
 }
 
 .h6-alerta {
@@ -127,17 +138,20 @@ footer .-content {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
-  font-weight: 600;
+  font-weight: 400;
   font-size: large;
+  overflow: hidden;
 }
 
 .p-alerta {
   color: #f3f3f3;
   text-align: center;
   margin: 10px;
+  overflow: hidden;
 }
 
-.mark, mark {
+.mark,
+mark {
   padding: 0px;
   background-color: rgba(255, 166, 0, 0.833);
   border-radius: 15px;
@@ -146,6 +160,37 @@ footer .-content {
 
 .final {
   color: rgba(255, 166, 0, 0.833);
+}
+
+/* relog digital */
+
+#reloj {
+  font-size: 40px;
+  text-shadow: 0px 0px 1px #333;
+  color: #fff;
+  overflow: hidden;
+}
+
+.reloj-contenedor {
+  background: url(../images/relog\ \(1\).gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+#fecha {
+  letter-spacing: 10px;
+  font-size: 15px;
+}
+
+.animar {
+  border: rgb(0, 0, 0) 2px solid;
 }
 
 .boton-inicio {
@@ -179,6 +224,7 @@ a {
   background: #ccc;
   color: black;
 }
+
 .accordion-item .a-index {
   text-decoration: none;
   color: #fd1d1d;
@@ -207,6 +253,7 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
 .containerform form {
   color: black;
   height: 530px;
@@ -216,6 +263,7 @@ h1 {
   margin: 10px;
   margin-bottom: 30px;
 }
+
 .containerform form .form-control {
   background-color: white;
 }
@@ -225,6 +273,7 @@ h1 {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   color: black;
 }
+
 .card .card-img-top {
   margin-bottom: 3px;
 }
@@ -252,6 +301,7 @@ h1 {
   right: 20px;
   z-index: 1000;
 }
+
 .whatsapp-button img {
   width: 53px;
   height: 53px;
@@ -268,35 +318,45 @@ h1 {
   0% {
     transform: scale(1);
   }
+
   30% {
     transform: scaleX(1.25) scaleY(0.75);
   }
+
   40% {
     transform: scaleX(0.75) scaleY(1.25);
   }
+
   50% {
     transform: scale(1);
   }
+
   65% {
     transform: scale(0.95);
   }
+
   75% {
     transform: scale(1.05);
   }
+
   100% {
     transform: scale(1);
   }
 }
+
 .h_inicio {
   animation: h_inicio 2s linear infinite;
 }
+
 @keyframes h_inicio {
   0% {
     transform: translateX(0);
   }
+
   50% {
     transform: translateX(-30px);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -306,13 +366,16 @@ h1 {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.5);
   }
+
   100% {
     transform: scale(1);
   }
 }
+
 .logo {
   animation: pulse 4s infinite;
   /* Duración de 2 segundos, repetición infinita */
@@ -329,9 +392,11 @@ h1 {
   animation: typing 6s steps(21), blink 0.7s infinite step-end alternate;
   overflow: hidden;
 }
+
 @keyframes typing {
   from {
     width: 0;
+
     @keyframes blink {
       50% {
         border-color: transparent;
@@ -419,6 +484,7 @@ h1 {
     grid-template-columns: 1fr;
     min-height: 100vh;
   }
+
   .section-inicio {
     display: flex;
     flex-direction: column;
@@ -426,29 +492,36 @@ h1 {
     align-content: center;
     justify-content: center;
   }
+
   ul {
     display: flex;
     flex-direction: column;
   }
+
   .main-inicio {
     display: flex;
     align-items: center;
   }
+
   .section2-inicio {
     display: block;
   }
+
   #grid-inicio {
     display: none;
   }
+
   .div_inicio {
     display: flex;
     flex-direction: column;
   }
+
   .inicio_sec {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .mainn-inicio {
     display: flex;
     padding: 10px;
@@ -456,6 +529,7 @@ h1 {
     margin-top: 15px;
   }
 }
+
 #sobre_mi {
   display: grid;
   grid-template-areas: "nav" "main" "footer";
