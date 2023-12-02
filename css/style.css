@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Agrega estos estilos al final de tu archivo CSS o donde sea apropiado */
+
 body {
   background: #f5f5f5;
   font-family: "Mooli", sans-serif;
@@ -41,7 +43,8 @@ p {
 
 .navbar-toggler {
   background: white;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .navbar-nav {
@@ -134,7 +137,7 @@ footer .-content {
 }
 
 .h6-alerta {
-  color: #EECE1A;
+  color: #eece1a;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -163,7 +166,7 @@ mark {
 }
 
 /* relog digital */
-
+/* 
 #reloj {
   font-size: 40px;
   text-shadow: 0px 0px 1px #333;
@@ -182,12 +185,64 @@ mark {
   margin: auto;
   margin-top: 50px;
   overflow: hidden;
-}
+} */
 
-#fecha {
+/* #fecha {
   letter-spacing: 10px;
   font-size: 15px;
+} */
+
+/* CSS DE CERTIFICACIONES */
+.certificaciones {
+  background-color: #dee2e65c;
+  text-align: center;
+  padding: 5px;
+  overflow: hidden;
 }
+
+.certificacion {
+  margin-top: 18px;
+  overflow: hidden;
+}
+
+.certificacion-img {
+  width: 275px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 10px;
+}
+
+.certificacion-text {
+  margin-top: 10px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.h6-cert{
+  animation: h6-cert 2s linear infinite;
+  color: #eece1a;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: large;
+}
+
+@keyframes h6-cert {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-30px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+/* FIN DE CERT */
 
 .animar {
   border: rgb(0, 0, 0) 2px solid;
@@ -207,7 +262,8 @@ mark {
   margin-bottom: 15px;
   text-decoration: none;
   border: black solid 1px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 a {
@@ -270,7 +326,9 @@ h1 {
 
 .card {
   background: #ccc;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   color: black;
 }
 
@@ -284,7 +342,8 @@ h1 {
   width: 250px;
   transition: background-color 0.2s;
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .btn:hover {
@@ -388,7 +447,7 @@ h1 {
   white-space: nowrap;
   border-right: 4px solid;
   width: 23ch;
-  color: #EECE1A;
+  color: #eece1a;
   animation: typing 6s steps(21), blink 0.7s infinite step-end alternate;
   overflow: hidden;
 }
@@ -551,6 +610,29 @@ h1 {
 
 .d-grid {
   display: flex;
+}
+
+/* Estilos para la sección de agradecimiento y valoración */
+.agradecimiento-opinion {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+.agradecimiento-texto h2 {
+  color: #333;
+  padding: 20px;
+}
+.agradecimiento-texto p {
+  font-size: 1.1rem;
+  color: #555;
+}
+.btn-valoracion {
+  color: #fff;
+  border: none;
+  margin-top: 15px;
+}
+.btn-valoracion:hover {
+  background-color: #218838;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
