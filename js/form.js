@@ -2,7 +2,7 @@ document.getElementById('form').addEventListener('submit', function (event) {
     event.preventDefault();
 
     const btn = document.getElementById('button');
-    btn.value = 'Enviando formulario...';
+    btn.value = 'Enviando formulario..🤖';
 
     const serviceID = 'default_service';
     const templateID = 'template_e6vgmsq';
@@ -11,7 +11,7 @@ document.getElementById('form').addEventListener('submit', function (event) {
         .then(() => {
             btn.value = 'Enviar correo';
             Toastify({
-                text: "¡Correo enviado con éxito!",
+                text: "¡Correo enviado con éxito!😊",
                 duration: 4000,
                 close: true,
                 gravity: "top", // or "top"
@@ -22,7 +22,7 @@ document.getElementById('form').addEventListener('submit', function (event) {
         }, (err) => {
             btn.value = 'Enviar correo';
             Toastify({
-                text: "Error al enviar el correo. Por favor, inténtalo de nuevo.",
+                text: "Error al enviar el correo. Por favor, inténtalo de nuevo.😡",
                 duration: 3000,
                 close: true,
                 gravity: "top", // or "top"
