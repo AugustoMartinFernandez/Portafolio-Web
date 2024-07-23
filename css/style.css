@@ -434,10 +434,9 @@ h1 {
   }
 }
 
-.logo {
-  animation: pulse 4s infinite;
-  /* Duración de 2 segundos, repetición infinita */
-}
+/* .logo {
+  animation: pulse 2s infinite;
+} */
 
 .span1 {
   display: block;
