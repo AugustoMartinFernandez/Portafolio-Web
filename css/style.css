@@ -448,6 +448,7 @@ h1 {
   color: #eece1a;
   animation: typing 6s steps(21), blink 0.7s infinite step-end alternate;
   overflow: hidden;
+  overflow: hidden;
 }
 
 @keyframes typing {
